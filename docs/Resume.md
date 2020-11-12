@@ -1,0 +1,49 @@
+# Resume
+
+## Contact Informations
+
+- [LinkedIn](https://www.linkedin.com/in/tsunglin1993/)
+- [Email](mailto:tsunglin1993@gmail.com)
+
+## Professional Experiences
+
+### Tripresso (*2017/07 - Current*)
+
+*Web Engineer*
+
+- Working as member of Data team (*2018/12 - Current*)
+  - Implemented a *ETL* process chain for **tracking website user behavior** using data from access logs and searching results to *Google BigQuery*
+  - Implemented a *ETL* process chain for extracting data from *crawler* to *ElasticSearch* and *Azure SQL Database*
+  - Deployed *Redash*, an open-source **Business Intelligence** system, using *Docker*
+  - Involved in developing *web crawler* using *distributed system architecture*
+  - Familiar with *RESTful API* design using Python *Flask*
+  - Familiar with *unit-test-driven development* and *Github flow*
+  - Have experience using *GCP* services such as *Pub/Sub*, *App Engine*, *Cloud Functions*
+  - Have experience using *AWS* services such as *EC2*, *S3*, *Lambda*, *Athena*
+  - Have experience using *Apache Airflow*, *Apache Kafka*, *Logstash*
+- Developed and maintained CRM system (*2017/07 - 2018/12*)
+
+### Aviation Police Bureau (*2016/06 - 2017/06*)
+
+*Alternative Military Service*
+
+### Tripresso (*2016/02 - 2016/06*)
+
+*Assitant Data Engineer (Internship)*
+
+- Involved in designing CRM system & order data schema
+- Implemented CRM system with other intern member
+
+## Projects
+
+1. SeekingAlpha Crawling System (*2020/04 - 2020/10*)
+2. User Footprint System (*2019/01 - current*)
+3. Business Intelligence System (*2018/12 - current*)
+4. Python Distributed Crawler (*2018/12 - current*)
+5. CRM System (*2017/07 - 2018/12*)
+
+## Educational
+
+### National Chiao Tung University (*2011/09 - 2016/02*)
+
+*Bachelor of Science majored in Computer Science*
