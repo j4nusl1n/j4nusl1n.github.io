@@ -45,6 +45,26 @@
 4. Python Distributed Crawler (*2018/12 - current*)
 5. CRM System (*2017/07 - 2018/12*)
 
+## Skill Sets
+
+- Acquainted
+  - Python
+  - Unit testing
+  - GCP BigQuery
+- Familiar with
+  - Web crawling
+  - Docker, Docker-compose
+  - RESTful API design
+  - Elasticsearch
+  - GCP App Engine
+  - Github Flow
+- Known
+  - GCP: Cloud Functions, Pub/Sub
+  - AWS: Lambda, EC2, S3, Athena
+  - Apache Kafka
+  - Apache Airflow
+  - Logstash
+
 ## Educational
 
 ### National Chiao Tung University (*2011/09 - 2016/02*)
