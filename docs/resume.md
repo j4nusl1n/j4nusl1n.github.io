@@ -19,9 +19,9 @@
 
 - Working as member of Data team (*2018/12 - Current*)
   - Implemented a *ETL* process system for **tracking website user behavior** using data from access logs and searching results to *Google BigQuery*.
-  - Deployed *Redash*, an open-source **Business Intelligence** system, to support Marketing and Senior Management departments making business desicions.
-  - Collaborated with members in a special project team and boosted Conversion Rate by 7%, Order increasement by 0.3%, EDM Click Through Rate by 7%, by means of **analyzing website user behavior**, **developing a recommanding system using user footprints**, and **conducting an A/B testing for UX optimizing**.
-  - Developed a finacial analyzing platform for another company using *ElasticSearch* as searching engine, *Flask* as backend deployed on *Azure App Service*, *Azure SQL Database* as database.
+  - Deployed *Redash*, an open-source **Business Intelligence** system, to support Marketing and Senior Management departments making business decisions.
+  - Collaborated with members in a special project team and boosted Conversion Rate by 7%, Order increase by 0.3%, EDM Click Through Rate by 7%, by means of **analyzing website user behavior**, **developing a recommending system using user footprints**, and **conducting an A/B testing for UX optimizing**.
+  - Developed a financial analyzing platform for another company using *ElasticSearch* as searching engine, *Flask* as backend deployed on *Azure App Service*, *Azure SQL Database* as database.
   - Involved in developing *web crawler* using *distributed system architecture* to collect data from other business partners.
 - Developed and maintained CRM system (*2017/07 - 2018/12*)
   - Implemented functionalities for improving Customer Service and Financial departments' working flow in *PHP*
