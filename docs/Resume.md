@@ -5,6 +5,12 @@
 - [LinkedIn](https://www.linkedin.com/in/tsunglin1993/)
 - [Email](mailto:tsunglin1993@gmail.com)
 
+## About Me
+
+- 2+ years experiences using Python in developing web crawler, data processing, unit-testing programming, docker container, cloud services includes Google Cloud Platform and Amazon Web Services.
+- 3+ years experiences in MySQL database schema, Linux server configuration, backend RESTful API design.
+- Adept to Test-Driven Development, also enjoying collaborating with team members and cooperating with other departments to achieve greater success
+
 ## Professional Experiences
 
 ### Tripresso (*2017/07 - Current*)
