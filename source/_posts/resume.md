@@ -1,4 +1,8 @@
-# Resume
+---
+title: Resume
+date: 2021-01-05 23:20:41
+tags:
+---
 
 ## Contact Informations
 
@@ -13,11 +17,11 @@
 
 ## Professional Experiences
 
-### Tripresso (*2017/07 - Current*)
+### Tripresso (*2017/07 - 2020/12*)
 
 *Web Engineer*
 
-- Working as member of Data team (*2018/12 - Current*)
+- Working as member of Data team (*2018/12 - 2020/12*)
   - Implemented a *ETL process* system for **tracking website user behavior** using data from access logs and searching results to *Google Cloud Platform BigQuery* and *AWS S3*.
   - Deployed *Redash*, an open-source **Business Intelligence** system, to support Marketing and Senior Management departments in making business decisions.
   - Collaborated with members in a special project team and boosted **Conversion Rate by 7%**, **Order increase by 0.3%**, **EDM Click Through Rate by 7%**, by means of **analyzing website user behavior**, **developing a recommending system using user footprints**, and **conducting an A/B testing for UX optimizing**.
