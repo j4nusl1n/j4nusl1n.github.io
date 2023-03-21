@@ -104,4 +104,4 @@ theme: next
 deploy:
   type: "git"
   repo: https://github.com/j4nusl1n/j4nusl1n.github.io.git
-  branch: master
+  branch: gh-pages

@@ -8,6 +8,8 @@ tags: [python,selenium,crawler,web crawler]
 
 **Selenium** 網頁爬蟲是一種透過程式模仿人類操作瀏覽器的方式，例如點擊連結、填入文字框等等，以便取得網頁中的資料  
 
+<!--more-->
+
 ## 如何安裝使用 Selenium
 
 以下程式範例使用 Python 3.8，環境設定的部分暫不贅述  

@@ -15,6 +15,8 @@ tags:
 - 3+ years experiences in MySQL database schema, Linux server configuration, backend RESTful API design.
 - Adept to Test-Driven Development, also enjoying collaborating with team members and cooperating with other departments to achieve greater success
 
+<!--more-->
+
 ## Professional Experiences
 
 ### Tripresso (*2017/07 - 2020/12*)
