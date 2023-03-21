@@ -1,0 +1,32 @@
+darkmode: true
+footer:
+  icon:
+    name: fa fa-user
+    color: "#808080"
+
+creative_commons:
+  license: by-sa
+  sidebar: true
+  post: true
+  language: zh-TW
+
+scheme: Mist
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  #tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+sidebar:
+  display: hide
+
+social:
+  GitHub: https://github.com/j4nusl1n || fab fa-github
+
+local_search:
+  enable: true
+  trigger: manual
+
+minify: true
