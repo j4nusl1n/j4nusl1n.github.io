@@ -1,7 +1,9 @@
 ---
 title: Selenium 網頁爬蟲簡單分享 in Python
 date: 2023-03-21 23:20:41
-tags: [python,selenium,crawler,web crawler]
+tags: [python,selenium,crawler,web crawler,網頁爬蟲]
+categories:
+    - [技術分享, 爬蟲]
 ---
 
 ## 什麼是 Selenium？
@@ -15,6 +17,7 @@ tags: [python,selenium,crawler,web crawler]
 以下程式範例使用 Python 3.8，環境設定的部分暫不贅述  
 
 ### 安裝 Selenium
+
 ```shell
 pip install selenium
 ```
@@ -23,10 +26,10 @@ pip install selenium
 
 要讓 Selenium 操作瀏覽器時，需要安裝對應的瀏覽器驅動，下列為幾種常用的瀏覽器驅動，可以依照個人喜好挑選
 
-- Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
-- Firefox: https://github.com/mozilla/geckodriver/releases
-- Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-- Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+- Chrome: <https://sites.google.com/a/chromium.org/chromedriver/downloads>
+- Firefox: <https://github.com/mozilla/geckodriver/releases>
+- Edge: <https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/>
+- Safari: <https://webkit.org/blog/6900/webdriver-support-in-safari-10/>
 
 後續範例皆使用 Chrome 瀏覽器
 
@@ -80,3 +83,4 @@ driver.quit()
 以上範例只是個參考，讓大家能夠大略上理解，如何透過 Selenium 操控瀏覽器將瀏覽網頁行為自動化。  
 接著會再介紹如何應用 Selenium 的其他功能，以便應付更複雜的情境
 
+## WebDriverWait, Expected Condition
