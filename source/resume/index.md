@@ -1,7 +1,8 @@
 ---
 title: Resume
 date: 2021-01-05 23:20:41
-tags:
+permalink: about/resume
+comments: false
 ---
 
 ## Contact Informations
