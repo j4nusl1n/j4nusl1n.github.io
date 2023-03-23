@@ -33,3 +33,6 @@ minify: true
 
 google_analytics:
   tracking_id: G-648VTZD170
+
+custom_file_path:
+  head: source/_data/head.njk
