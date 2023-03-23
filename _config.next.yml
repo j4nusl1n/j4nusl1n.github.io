@@ -30,3 +30,6 @@ local_search:
   trigger: manual
 
 minify: true
+
+google_analytics:
+  tracking_id: G-648VTZD170
