@@ -76,7 +76,7 @@ browser.quit()
 
 接著會再介紹如何應用 Selenium 的其他功能，以便應付更複雜的情境。
 
-## WebDriverWait, expected_condition
+## 如何等待特定條件滿足後接續執行
 
 如果我們需要等待網頁DOM元件產生之後再爬取資料的話，與其直接用`time.sleep()`的方式，更應該善用Selenium自帶的`WebDriverWait`類別及`expected_conditions`模組，來幫助我們寫出更有效率的爬蟲  
 
@@ -114,7 +114,73 @@ browser.quit()
 
 `WebDriverWait`的`until`會等到條件滿足，或者是超過最大等待時間。若是條件滿足的話，則會回傳`visibility_of_element_located`中指定的元件，好讓我們能對此元件做互動  
 
-## (Optional) Web Driver Manager
+## 擷取網頁回傳資料
+
+有時候我們如果在爬取網頁時，需要擷取特定Http Request回傳的資料時，這時候我們就可以利用 Selenium 的 `get_log` 方法來達成目的  
+下面為簡單的程式範例
+
+```python
+from selenium import webdriver
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+# configure Google Chrome logging preference to all logs
+# always use copy() to create a new desired capabilities
+# to avoid the side effects of altering the Global class instance.
+dc = DesiredCapabilities.CHROME.copy()
+dc["goog:loggingPrefs"] = {"performance": "ALL"}
+
+# Launch the browser and navigate to the page you want to capture network response logs from
+driver = webdriver.Chrome(
+    desired_capabilities=dc,
+)
+driver.get('https://www.example.com')
+
+# Retrieve the browser's logs
+logs = driver.get_log('performance')
+
+# Filter out the network response logs from the browser logs
+network_logs = [log for log in logs if 'Network.response' in log['message']]
+
+```
+
+在上述程式碼中，我們依序做了下面幾件事:
+
+1. 設定Chrome記錄所有log並開啟瀏覽器
+2. 開啟我們想要抓取資料的網址
+3. 使用 `get_log()` 並且傳入參數 `'performance'`，讀取所有類型為performance的瀏覽器記錄
+4. 記錄的`message`中帶有 `Network.response` 的留下，剩餘的濾掉
+
+透過以上過程，我們可以取得網頁的Http response記錄  
+
+下一段我們使用 `execute_cdp_command` 方法來取得資料
+
+```python
+# continue from codes above
+import json
+
+for log in network_logs:
+    # parse JSON strings in log['message']
+    msg = json.loads(log['message'])['message']
+
+    # check if method is Network.responseReceived
+    if msg["method"] == "Network.responseReceived":
+        # use Selenium execute_cdp_cmd to retrieve respnose data
+        data = driver.execute_cdp_cmd(
+            "Network.getResponseBody",
+            {"requestId": msg["params"]["requestId"]},
+        )
+        print(data)
+```
+
+接續前面取得的 `network_logs`，我們接著後續步驟取得回傳資料
+
+1. 記錄的 `message` 欄位，其中資料為JSON string，因此使用 `json.loads()` 解析成 `dict` 格式並且留下 `message` 存到變數 `msg`
+2. 檢查 `msg['method']` 是否為 `Network.responseReceived`
+3. 使用 `execute_cdp_cmd()` 透過 Chrome DevTools Protocol 的 [Network.getResponseBody](https://chromedevtools.github.io/devtools-protocol/tot/Network/#method-getResponseBody) 指令，取得回傳資料
+
+以上範例簡單演練了如何取得網頁Http Response的資料，好讓我們能使用回傳資料做後續處理
+
+## (Optional) 使用套件管理瀏覽器驅動
 
 由於前述的瀏覽器驅動需要依照使用者安裝的瀏覽器，去選擇下載對應版本的驅動，因此可以額外使用 python 套件 `Web Driver Manager` 去自動下載新的瀏覽器驅動。適合在本機開發時若是瀏覽器時常更新版本的話，就不需要手動去下載新的驅動
 
