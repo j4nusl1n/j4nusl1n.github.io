@@ -36,6 +36,7 @@ google_analytics:
 
 custom_file_path:
   head: source/_data/head.njk
+  sidebar: source/_data/sidebar.njk
 
 # Allow to cache content generation.
 cache:
@@ -60,3 +61,8 @@ favicon:
   apple_touch_icon: /images/apple-touch-icon.png
   safari_pinned_tab:
   android_manifest: /site.webmanifest
+
+recent_post:
+  enable: true
+  title: 近期文章
+  layout: block
