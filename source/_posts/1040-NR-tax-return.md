@@ -10,7 +10,7 @@ date: 2023-11-29 12:32:11
 ---
 
 
-# 1040-NR NEC退稅介紹
+## 1040-NR NEC退稅介紹
 
 > 聲明：
 本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。
@@ -50,7 +50,7 @@ date: 2023-11-29 12:32:11
 
 感謝Rib前輩已經有整理台灣投資人常選擇的基金公司的稅務資料，可以在 **[NEC退稅稅務資料抽取試算表](https://ribtw.blogspot.com/2015/04/tax-info-spreadsheet.html)** 中取得整理過的資料，以下用 *Vanguard* 的[2022稅務資料抽取試算表](https://docs.google.com/spreadsheets/d/1VBE5HgNNarBjUC_n_8vQ04MMCXCodwZ_SkUjesSsoXA/edit?usp=drive_link)作為範例。
 
-![以2022 Vanguard BND/VXUS稅務資料抽取為例](Untitled.png)
+![以2022 Vanguard BND/VXUS稅務資料抽取為例](/blog-images/1040-NR-tax-return/Untitled.png)
 
 以2022 Vanguard BND/VXUS稅務資料抽取為例
 
@@ -62,7 +62,7 @@ date: 2023-11-29 12:32:11
 
 以Rib前輩製作的[Schwab NEC退稅試算表](https://ribtw.blogspot.com/2017/04/schwab-nec-2016.html)為例，依照文章及試算表指示將稅務資料、券商交易紀錄、券商提供的********1042-S********等資料一一填入對應試算表欄位後，就能產製一份配息再分類報表如下圖。
 
-![配息再分類報表範例](Untitled%201.png)
+![配息再分類報表範例](/blog-images/1040-NR-tax-return/Untitled%201.png)
 
 配息再分類報表範例
 
@@ -103,19 +103,19 @@ date: 2023-11-29 12:32:11
 
 **以下填寫範例為本人經驗，如有其他美國稅務身份或是美國來源收入，請諮詢專業稅務人士！**
 
-![1040-NR表格第一頁](1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.14.27.png)
+![1040-NR表格第一頁](/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.14.27.png)
 
 1040-NR表格第一頁
 
-![Schedule NEC](1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.53.32.png)
+![Schedule NEC](/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.53.32.png)
 
 Schedule NEC
 
-![1040-NR表格第二頁](1040-NR-tax-return/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D.png)
+![1040-NR表格第二頁](/blog-images/1040-NR-tax-return/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D.png)
 
 1040-NR表格第二頁
 
-![Schedule OI](1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258811.02.19.png)
+![Schedule OI](/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258811.02.19.png)
 
 Schedule OI
 
