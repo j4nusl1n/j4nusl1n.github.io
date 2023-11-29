@@ -82,6 +82,10 @@ css: css
 js: js
 images: images
 
+# Google Webmaster tools verification.
+# See: https://developers.google.com/search
+google_site_verification: tJfngue2homYInPbMEX8esxdAl2ibFeV5_KxILnJjbk
+
 favicon:
   small: /images/favicon-16x16.png
   medium: /images/favicon-32x32.png
