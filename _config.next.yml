@@ -53,3 +53,10 @@ open_graph:
 
 # Show multilingual switcher in footer.
 language_switcher: false
+
+favicon:
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab:
+  android_manifest: /site.webmanifest
