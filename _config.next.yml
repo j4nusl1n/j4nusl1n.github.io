@@ -55,6 +55,37 @@ open_graph:
 # Show multilingual switcher in footer.
 language_switcher: false
 
+# ---------------------------------------------------------------
+# Comments Settings
+# See: https://theme-next.js.org/docs/third-party-services/comments
+# ---------------------------------------------------------------
+
+# Multiple Comment System Support
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
+  active: disqus
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+  # Lazyload all comment systems.
+  lazyload: false
+  # Modify texts or order for any naves, here are some examples.
+  nav:
+    #disqus:
+    #  text: Load Disqus
+    #  order: -1
+    #gitalk:
+    #  order: -2
+
+# Disqus
+# For more information: https://disqus.com
+disqus:
+  enable: true
+  shortname: januslin
+  count: true
+
 favicon:
   small: /images/favicon-16x16.png
   medium: /images/favicon-32x32.png

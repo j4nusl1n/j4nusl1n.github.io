@@ -2,7 +2,7 @@
 title: 隱私權政策
 date: 2023-11-29 11:34:11
 permalink: about/privacy-policy
-comment: false
+comments: false
 ---
 
 ## 隱私權政策
