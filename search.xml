@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1040-NR NEC退稅流程</title>
+    <url>/2023/11/29/1040-NR-tax-return/</url>
+    <content><![CDATA[<h1 id="1040-NR-NEC退稅介紹"><a href="#1040-NR-NEC退稅介紹" class="headerlink" title="1040-NR NEC退稅介紹"></a>1040-NR NEC退稅介紹</h1><blockquote>
+<p>聲明：<br>本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。<br>以下內容純屬個人見解及個人做法，純屬記錄個人投資歷程。<br>歡迎留言交流指正，但相關稅務責任需自負。</p>
+</blockquote>
+<p>簡單介紹如何填寫1040-NR稅表及W-7申請ITIN<br>並且附上本人申請退稅流程及時間作為參考</p>
+<span id="more"></span>
+
+<h2 id="為什麼要退稅"><a href="#為什麼要退稅" class="headerlink" title="為什麼要退稅"></a>為什麼要退稅</h2><blockquote>
+<p>以下內容為參考 <strong><a href="https://ribtw.blogspot.com/">Rib的投資學習筆記</a></strong> 的 <strong><a href="https://ribtw.blogspot.com/2014/04/NEC-Tax-Refund.html">NEC退稅文章</a></strong> 後個人整理的概要<br>若想更詳細了解建議閱讀Rib前輩整理的退稅文章系列</p>
+</blockquote>
+<p>非美國投資人(<strong>NRA</strong>)因為必須填寫<em>W-8BEN</em>表格給券商，配息前券商會自動依照預扣稅比例(台灣人30%)，從配息中預先扣除後再給投資人。因此其實收到的配息已經是完稅，無需在隔年向IRS報稅。</p>
+<p>然而部分配息是有可能屬於<strong>無須課稅</strong>(<em>Non-taxable</em>)的種類，如下列提到的幾種項目。</p>
+<ul>
+<li><em>Return of Capital</em> (<strong>ROC</strong>): 配息來自本金</li>
+<li><em>Foreign Source Income</em> (<strong>FSI</strong>): 外國來源收入</li>
+<li><em>Qualified Interest Income</em> (<strong>QII</strong>): 基金配息來自免稅的部分</li>
+<li><em>Long&#x2F;Short-term Capital Gain Distribution</em> (<strong>L&#x2F;T CG</strong>, <strong>S&#x2F;T CG</strong>): 長期&#x2F;短期資本利得分配</li>
+</ul>
+<p>隨著投入本金增長的情況下，配息被預扣稅的數目累積起來也是不可小覷，此時若能透過退稅退回無須課稅的部分自然是最好。</p>
+<p>這類的配息再入帳後可以經由再分類的程序，在隔年收到券商提供的<strong>1042-S</strong>表格後，填寫<strong>1040-NR</strong>向IRS申報<em>Non-Effectively Connected Income</em> (<strong>NEC</strong>)其中屬於無須扣稅的部分，進而退回多扣除的配息。</p>
+<h2 id="配息再分類"><a href="#配息再分類" class="headerlink" title="配息再分類"></a>配息再分類</h2><h3 id="抽取稅務資料"><a href="#抽取稅務資料" class="headerlink" title="抽取稅務資料"></a>抽取稅務資料</h3><p>在進行配息再分類前，必須先取得各基金公司(e.g. <em>Vanguard</em>, <em>iShares</em>)提供的稅務資料，才能釐清各個ETF的配息中哪些部分屬於可退稅的項目。</p>
+<p>感謝Rib前輩已經有整理台灣投資人常選擇的基金公司的稅務資料，可以在 <strong><a href="https://ribtw.blogspot.com/2015/04/tax-info-spreadsheet.html">NEC退稅稅務資料抽取試算表</a></strong> 中取得整理過的資料，以下用 <em>Vanguard</em> 的<a href="https://docs.google.com/spreadsheets/d/1VBE5HgNNarBjUC_n_8vQ04MMCXCodwZ_SkUjesSsoXA/edit?usp=drive_link">2022稅務資料抽取試算表</a>作為範例。</p>
+<p><img src="/.info//Untitled.png" alt="以2022 Vanguard BND/VXUS稅務資料抽取為例"></p>
+<p>以2022 Vanguard BND&#x2F;VXUS稅務資料抽取為例</p>
+<p>從範例圖中可以看到，BND的每月配息中幾乎有90%為<strong>QII</strong>、VXUS的配息全數屬於<strong>FSI</strong>。這些配息原本從券商入帳時都會被扣除30%，透過配息再分類的步驟，我們可以將最後計算出來多扣除的部分申請退回。</p>
+<h3 id="填寫再分類報表"><a href="#填寫再分類報表" class="headerlink" title="填寫再分類報表"></a>填寫再分類報表</h3><p>擁有抽取出的稅務資料以後，就能夠以此計算實際收到的配息中屬於免稅的金額。</p>
+<p>以Rib前輩製作的<a href="https://ribtw.blogspot.com/2017/04/schwab-nec-2016.html">Schwab NEC退稅試算表</a>為例，依照文章及試算表指示將稅務資料、券商交易紀錄、券商提供的<strong><strong><strong><strong>1042-S</strong></strong></strong></strong>等資料一一填入對應試算表欄位後，就能產製一份配息再分類報表如下圖。</p>
+<p><img src="/.info//Untitled%201.png" alt="配息再分類報表範例"></p>
+<p>配息再分類報表範例</p>
+<p>其中會得到四個重要的數字，依序分別為</p>
+<ul>
+<li><em>Total Taxable Income</em>: 應稅收入</li>
+<li><em>Total Tax</em>: 應付稅金</li>
+<li><em>Federal Tax Withheld</em>: 預扣稅</li>
+<li><em>Tax Overpaid</em>: 溢付稅金</li>
+</ul>
+<p>之後在填寫<strong>1040-NR</strong>時必須要填在對應的欄位。</p>
+<h2 id="申請ITIN：填寫W-7"><a href="#申請ITIN：填寫W-7" class="headerlink" title="申請ITIN：填寫W-7"></a>申請ITIN：填寫W-7</h2><p>若是第一次向IRS報稅，必須填寫<strong>W-7</strong>表格申請一組個人稅務編號(<em>Individual Taxpayer Identification Number</em>, <strong>ITIN</strong>)，此號碼格式與美國的社會安全編號(<em>Social Security Number</em>, <strong>SSN</strong>)類似，主要是提供<strong>NRA</strong>報稅時使用。</p>
+<p>申請<strong>ITIN</strong>所需文件有下列幾項</p>
+<ul>
+<li>W-7: 申請<strong>ITIN</strong>專用表格(<a href="https://www.irs.gov/pub/irs-pdf/fw7.pdf">PDF檔案連結</a>)</li>
+<li>1040-NR: 申請退稅用表格</li>
+<li>身分證明文件: <strong>護照正本</strong>或是<strong>外交部認證的護照正影本相符證明</strong><ul>
+<li>建議不要使用正本，因為申請完IRS會用平信寄回來容易遺失</li>
+<li>外交部認證護照正影本相符證明申請費用<em>NTD$400</em></li>
+</ul>
+</li>
+</ul>
+<p>建議填寫表格時，可以使用支援PDF的網頁瀏覽器(e.g. Chrome, Safari)開啟文件，除了需要簽名的欄位外使用打字方式填寫，以避免人工填寫錯誤。</p>
+<h2 id="申請退稅：填寫1040-NR"><a href="#申請退稅：填寫1040-NR" class="headerlink" title="申請退稅：填寫1040-NR"></a>申請退稅：填寫1040-NR</h2><p>填寫1040-NR時所需要填寫的有三份表格，都能夠在IRS的<a href="https://www.irs.gov/forms-pubs/about-form-1040-nr">1040-NR頁面</a>中找到。</p>
+<p>分別為：</p>
+<ol>
+<li>1040-NR 主表 (<a href="https://www.irs.gov/pub/irs-pdf/f1040nr.pdf">1040-NR PDF檔案</a>)</li>
+<li>Schedule NEC</li>
+<li>Schedule OI</li>
+</ol>
+<p>填寫1040-NR主表時，需注意第一頁上方的年份，若是需要申報更之前年份的退稅，可以在<a href="https://www.irs.gov/prior-year-forms-and-instructions">IRS歷年表格</a>的頁面搜尋對應關鍵字並開啟文件填寫。</p>
+<p><strong>以下填寫範例為本人經驗，如有其他美國稅務身份或是美國來源收入，請諮詢專業稅務人士！</strong></p>
+<p><img src="/.info//%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.14.27.png" alt="1040-NR表格第一頁"></p>
+<p>1040-NR表格第一頁</p>
+<p><img src="/.info//%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.53.32.png" alt="Schedule NEC"></p>
+<p>Schedule NEC</p>
+<p><img src="/.info//%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D.png" alt="1040-NR表格第二頁"></p>
+<p>1040-NR表格第二頁</p>
+<p><img src="/.info//%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258811.02.19.png" alt="Schedule OI"></p>
+<p>Schedule OI</p>
+<p>注意事項：</p>
+<ul>
+<li><em>Schedule NEC</em>上方<em>Nature of Income</em>對應為預扣稅比例，台灣投資人NRA身份為30%，若有其他國家稅務身份則需填入對應比例的欄位。</li>
+<li>主表的第二頁<strong>Direct Deposit</strong>資訊，若是券商有提供可直接入帳的帳戶，可以填寫<em>Routing Number</em>及<em>Account Number</em>，<strong>IRS</strong>退稅時就會直接匯入填寫的帳戶，否則需要等待IRS退稅支票寄回。</li>
+<li><em>Schedule OI</em>各項目說明，可參考Rib前輩的<a href="https://ribtw.blogspot.com/2016/04/1040nr-schedule-oi.html">填寫說明範例</a><ul>
+<li>A~H：攸關投資人的稅籍身份認定，請依個人狀況填寫</li>
+<li>L：若擁有<strong>與美國有稅務協定的國家的稅籍身份</strong>請照實填寫，必要情況時須額外附上<a href="https://www.irs.gov/forms-pubs/about-form-8833">Form 8833</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="退稅時程"><a href="#退稅時程" class="headerlink" title="退稅時程"></a>退稅時程</h2><ul>
+<li>2023-08-30 申請護照正影本相符證明</li>
+<li>2023-09-01 領取護照正影本相符證明</li>
+<li>2023-09-05 文件寄出(國際掛號郵資NTD$293)</li>
+<li>2023-09-07 郵件離開台灣</li>
+<li>2023-09-08 郵件抵達美國互換局</li>
+<li>2023-09-18 郵件送達IRS Austin Service Center ITIN Operation<ul>
+<li>透過USPS Customer Support Email得知送達日期</li>
+</ul>
+</li>
+<li>2023-11-01 2022年度退稅入帳(Direct Deposit)</li>
+<li>2023-11-16 2021年度退稅入帳(Direct Deposit)</li>
+<li>2023-11-20 收到IRS ITIN通知信(CP565)<ul>
+<li>2023-10-12 從IRS寄出(從信件內容得知)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>ref.</p>
+<ul>
+<li><a href="https://ribtw.blogspot.com/2014/04/NEC-Tax-Refund.html">美國券商NRA投資人NEC退稅總整理</a></li>
+<li><a href="https://www.boca.gov.tw/cp-169-3981-7067f-1.html">外交部申請出具「護照正影本相符」證明流程圖</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>美股投資</category>
+        <category>報稅</category>
+      </categories>
+      <tags>
+        <tag>美股投資</tag>
+        <tag>報稅</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Selenium 網頁爬蟲簡單分享 in Python</title>
     <url>/2023/03/21/selenium-intro/</url>
     <content><![CDATA[<h2 id="什麼是-Selenium？"><a href="#什麼是-Selenium？" class="headerlink" title="什麼是 Selenium？"></a>什麼是 Selenium？</h2><p><strong>Selenium</strong> 網頁爬蟲是一種透過程式模仿人類操作瀏覽器的方式，例如點擊連結、填入文字框等等，以便取得網頁中的資料  </p>
@@ -22,7 +133,7 @@
 
 <p>在這個範例中，我們使用了 Selenium 驅動了 Chrome 瀏覽器，執行時會自動開啟一個瀏覽器畫面。<br>接著我們開啟 <a href="https://www.example.com/">https://www.example.com</a>，並且使用 CSS 選擇器選定一個按鈕點擊它。<br>再來繼續使用 CSS 選擇器找到文字框，輸入 <code>Hello, World!</code>，找到送出按鈕送出表單。<br>接下來再取得網頁中標題<code>h1</code>以及文字段落<code>p</code>，並且印出所有文字段落內的文字。<br>最後在結束前，別忘了使用<code>quit()</code>關閉瀏覽器。<br>以上範例只是個參考，讓大家能夠大略上理解，如何透過 Selenium 操控瀏覽器將瀏覽網頁行為自動化。  </p>
 <p>接著會再介紹如何應用 Selenium 的其他功能，以便應付更複雜的情境。</p>
-<h2 id="WebDriverWait-expected-condition"><a href="#WebDriverWait-expected-condition" class="headerlink" title="WebDriverWait, expected_condition"></a>WebDriverWait, expected_condition</h2><p>如果我們需要等待網頁DOM元件產生之後再爬取資料的話，與其直接用<code>time.sleep()</code>的方式，更應該善用Selenium自帶的<code>WebDriverWait</code>類別及<code>expected_conditions</code>模組，來幫助我們寫出更有效率的爬蟲  </p>
+<h2 id="如何等待特定條件滿足後接續執行"><a href="#如何等待特定條件滿足後接續執行" class="headerlink" title="如何等待特定條件滿足後接續執行"></a>如何等待特定條件滿足後接續執行</h2><p>如果我們需要等待網頁DOM元件產生之後再爬取資料的話，與其直接用<code>time.sleep()</code>的方式，更應該善用Selenium自帶的<code>WebDriverWait</code>類別及<code>expected_conditions</code>模組，來幫助我們寫出更有效率的爬蟲  </p>
 <p><code>WebDriverWait</code>是一個能夠等待特定條件達成後，才接著繼續執行後續程式的類別。  <code>expected_conditions</code>模組中有各種條件功能，能夠結合上面的類別，以便完成整個等待的過程。  </p>
 <p>下面是個簡單的範例程式碼，讓爬蟲等待網頁中特定DOM元件完成顯示之後，再點擊此元件：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.by <span class="keyword">import</span> By</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.support.ui <span class="keyword">import</span> WebDriverWait</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.support <span class="keyword">import</span> expected_conditions <span class="keyword">as</span> EC</span><br><span class="line"></span><br><span class="line"><span class="comment"># create a new Chrome browser instance</span></span><br><span class="line">browser = webdriver.Chrome()</span><br><span class="line"></span><br><span class="line"><span class="comment"># navigate to the desired webpage</span></span><br><span class="line">browser.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># wait for the element with ID &quot;my_element&quot; to become visible</span></span><br><span class="line">wait = WebDriverWait(browser, <span class="number">10</span>)</span><br><span class="line">element = wait.until(EC.visibility_of_element_located((By.ID, <span class="string">&#x27;my_element&#x27;</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment"># do something with the element</span></span><br><span class="line">element.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># close the browser window</span></span><br><span class="line">browser.quit()</span><br></pre></td></tr></table></figure>
@@ -30,7 +141,28 @@
 <p>首先爬蟲開啟一個Chrome並且連到 <a href="https://www.example.com/">https://www.example.com</a><br>接著建立一個<code>WebDriverWait</code>物件，並且設定最大等待時間10秒  </p>
 <p>再來使用 <code>expected_conditions</code> 模組中的 <code>visibility_of_element_located</code>去偵測指定DOM元件是否已經顯示在網頁中。這個函式需要一個參數去指定要偵測的DOM元件，這邊使用的是DOM的ID <code>my_element</code>  </p>
 <p><code>WebDriverWait</code>的<code>until</code>會等到條件滿足，或者是超過最大等待時間。若是條件滿足的話，則會回傳<code>visibility_of_element_located</code>中指定的元件，好讓我們能對此元件做互動  </p>
-<h2 id="Optional-Web-Driver-Manager"><a href="#Optional-Web-Driver-Manager" class="headerlink" title="(Optional) Web Driver Manager"></a>(Optional) Web Driver Manager</h2><p>由於前述的瀏覽器驅動需要依照使用者安裝的瀏覽器，去選擇下載對應版本的驅動，因此可以額外使用 python 套件 <code>Web Driver Manager</code> 去自動下載新的瀏覽器驅動。適合在本機開發時若是瀏覽器時常更新版本的話，就不需要手動去下載新的驅動</p>
+<h2 id="擷取網頁回傳資料"><a href="#擷取網頁回傳資料" class="headerlink" title="擷取網頁回傳資料"></a>擷取網頁回傳資料</h2><p>有時候我們如果在爬取網頁時，需要擷取特定Http Request回傳的資料時，這時候我們就可以利用 Selenium 的 <code>get_log</code> 方法來達成目的<br>下面為簡單的程式範例</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.desired_capabilities <span class="keyword">import</span> DesiredCapabilities</span><br><span class="line"></span><br><span class="line"><span class="comment"># configure Google Chrome logging preference to all logs</span></span><br><span class="line"><span class="comment"># always use copy() to create a new desired capabilities</span></span><br><span class="line"><span class="comment"># to avoid the side effects of altering the Global class instance.</span></span><br><span class="line">dc = DesiredCapabilities.CHROME.copy()</span><br><span class="line">dc[<span class="string">&quot;goog:loggingPrefs&quot;</span>] = &#123;<span class="string">&quot;performance&quot;</span>: <span class="string">&quot;ALL&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Launch the browser and navigate to the page you want to capture network response logs from</span></span><br><span class="line">driver = webdriver.Chrome(</span><br><span class="line">    desired_capabilities=dc,</span><br><span class="line">)</span><br><span class="line">driver.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Retrieve the browser&#x27;s logs</span></span><br><span class="line">logs = driver.get_log(<span class="string">&#x27;performance&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Filter out the network response logs from the browser logs</span></span><br><span class="line">network_logs = [log <span class="keyword">for</span> log <span class="keyword">in</span> logs <span class="keyword">if</span> <span class="string">&#x27;Network.response&#x27;</span> <span class="keyword">in</span> log[<span class="string">&#x27;message&#x27;</span>]]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在上述程式碼中，我們依序做了下面幾件事:</p>
+<ol>
+<li>設定Chrome記錄所有log並開啟瀏覽器</li>
+<li>開啟我們想要抓取資料的網址</li>
+<li>使用 <code>get_log()</code> 並且傳入參數 <code>&#39;performance&#39;</code>，讀取所有類型為performance的瀏覽器記錄</li>
+<li>記錄的<code>message</code>中帶有 <code>Network.response</code> 的留下，剩餘的濾掉</li>
+</ol>
+<p>透過以上過程，我們可以取得網頁的Http response記錄  </p>
+<p>下一段我們使用 <code>execute_cdp_command</code> 方法來取得資料</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># continue from codes above</span></span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> log <span class="keyword">in</span> network_logs:</span><br><span class="line">    <span class="comment"># parse JSON strings in log[&#x27;message&#x27;]</span></span><br><span class="line">    msg = json.loads(log[<span class="string">&#x27;message&#x27;</span>])[<span class="string">&#x27;message&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># check if method is Network.responseReceived</span></span><br><span class="line">    <span class="keyword">if</span> msg[<span class="string">&quot;method&quot;</span>] == <span class="string">&quot;Network.responseReceived&quot;</span>:</span><br><span class="line">        <span class="comment"># use Selenium execute_cdp_cmd to retrieve respnose data</span></span><br><span class="line">        data = driver.execute_cdp_cmd(</span><br><span class="line">            <span class="string">&quot;Network.getResponseBody&quot;</span>,</span><br><span class="line">            &#123;<span class="string">&quot;requestId&quot;</span>: msg[<span class="string">&quot;params&quot;</span>][<span class="string">&quot;requestId&quot;</span>]&#125;,</span><br><span class="line">        )</span><br><span class="line">        <span class="built_in">print</span>(data)</span><br></pre></td></tr></table></figure>
+
+<p>接續前面取得的 <code>network_logs</code>，我們接著後續步驟取得回傳資料</p>
+<ol>
+<li>記錄的 <code>message</code> 欄位，其中資料為JSON string，因此使用 <code>json.loads()</code> 解析成 <code>dict</code> 格式並且留下 <code>message</code> 存到變數 <code>msg</code></li>
+<li>檢查 <code>msg[&#39;method&#39;]</code> 是否為 <code>Network.responseReceived</code></li>
+<li>使用 <code>execute_cdp_cmd()</code> 透過 Chrome DevTools Protocol 的 <a href="https://chromedevtools.github.io/devtools-protocol/tot/Network/#method-getResponseBody">Network.getResponseBody</a> 指令，取得回傳資料</li>
+</ol>
+<p>以上範例簡單演練了如何取得網頁Http Response的資料，好讓我們能使用回傳資料做後續處理</p>
+<h2 id="Optional-使用套件管理瀏覽器驅動"><a href="#Optional-使用套件管理瀏覽器驅動" class="headerlink" title="(Optional) 使用套件管理瀏覽器驅動"></a>(Optional) 使用套件管理瀏覽器驅動</h2><p>由於前述的瀏覽器驅動需要依照使用者安裝的瀏覽器，去選擇下載對應版本的驅動，因此可以額外使用 python 套件 <code>Web Driver Manager</code> 去自動下載新的瀏覽器驅動。適合在本機開發時若是瀏覽器時常更新版本的話，就不需要手動去下載新的驅動</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip3 install webdriver-manager</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br><span class="line"><span class="keyword">from</span> webdriver_manager.chrome <span class="keyword">import</span> ChromeDriverManager</span><br><span class="line"><span class="keyword">from</span> webdriver_manager.core.utils <span class="keyword">import</span> ChromeType</span><br><span class="line"></span><br><span class="line">chrome_type = ChromeType.GOOGLE</span><br><span class="line">browser = webdriver.Chrome(</span><br><span class="line">    service=Service(</span><br><span class="line">        ChromeDriverManager(chrome_type=chrome_type).install()</span><br><span class="line">    ),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
