@@ -18,21 +18,38 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   # archives: /archives/ || fa fa-archive
+  privacy: /about/privacy-policy || fas fa-user-shield
 
 sidebar:
   display: hide
 
 social:
   GitHub: https://github.com/j4nusl1n || fab fa-github
+  Resume: /about/resume || fa fa-file-text
 
 local_search:
   enable: true
   trigger: manual
-
-minify: true
 
 google_analytics:
   tracking_id: G-648VTZD170
 
 custom_file_path:
   head: source/_data/head.njk
+
+# Allow to cache content generation.
+cache:
+  enable: true
+
+# Remove unnecessary files after hexo generate.
+minify: false
+
+# Open graph settings
+# See: https://hexo.io/docs/helpers#open-graph
+open_graph:
+  enable: true
+  options:
+    type: blog
+
+# Show multilingual switcher in footer.
+language_switcher: false
