@@ -1,8 +1,11 @@
 ---
-title: 美股投資 1040-NR NEC退稅方式
+title: 美股ETF投資人申報NEC退稅流程分享
 tags:
   - 美股投資
   - 報稅
+  - 美股ETF
+  - 美股退稅
+  - 美股ETF退稅
 categories:
   - - 美股投資
     - 報稅
@@ -10,7 +13,7 @@ date: 2023-11-29 12:32:11
 ---
 
 
-## 美股投資 1040-NR NEC退稅方式
+## 美股ETF投資人申報NEC退稅流程分享
 
 > 聲明：
 本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。
@@ -18,10 +21,12 @@ date: 2023-11-29 12:32:11
 歡迎留言交流指正，但相關稅務責任需自負。
 >
 
-簡單介紹如何填寫1040-NR稅表及W-7申請ITIN  
-並且附上本人申請退稅流程及時間作為參考
+簡單介紹美股ETF投資人如何填寫表格申請退稅及申請ITIN  
+並且附上本人申請退稅流程作為參考
 
 <!--more-->
+
+![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)
 
 ## 為什麼要退稅
 
@@ -50,9 +55,7 @@ date: 2023-11-29 12:32:11
 
 感謝Rib前輩已經有整理台灣投資人常選擇的基金公司的稅務資料，可以在 **[NEC退稅稅務資料抽取試算表](https://ribtw.blogspot.com/2015/04/tax-info-spreadsheet.html)** 中取得整理過的資料，以下用 *Vanguard* 的[2022稅務資料抽取試算表](https://docs.google.com/spreadsheets/d/1VBE5HgNNarBjUC_n_8vQ04MMCXCodwZ_SkUjesSsoXA/edit?usp=drive_link)作為範例。
 
-![以2022 Vanguard BND/VXUS稅務資料抽取為例](/blog-images/1040-NR-tax-return/Untitled.png)
-
-以2022 Vanguard BND/VXUS稅務資料抽取為例
+![以2022 Vanguard BND/VXUS稅務資料抽取為例](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/BND-dividend.9e1klupvom8.webp)*以2022 Vanguard BND/VXUS稅務資料抽取為例*
 
 從範例圖中可以看到，BND的每月配息中幾乎有90%為**QII**、VXUS的配息全數屬於**FSI**。這些配息原本從券商入帳時都會被扣除30%，透過配息再分類的步驟，我們可以將最後計算出來多扣除的部分申請退回。
 
@@ -62,9 +65,7 @@ date: 2023-11-29 12:32:11
 
 以Rib前輩製作的[Schwab NEC退稅試算表](https://ribtw.blogspot.com/2017/04/schwab-nec-2016.html)為例，依照文章及試算表指示將稅務資料、券商交易紀錄、券商提供的********1042-S********等資料一一填入對應試算表欄位後，就能產製一份配息再分類報表如下圖。
 
-![配息再分類報表範例](/blog-images/1040-NR-tax-return/Untitled%201.png)
-
-配息再分類報表範例
+![配息再分類報表範例](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/reclassification.1xpkh76rtkdc.webp)*配息再分類報表範例*
 
 其中會得到四個重要的數字，依序分別為
 
@@ -103,21 +104,13 @@ date: 2023-11-29 12:32:11
 
 **以下填寫範例為本人經驗，如有其他美國稅務身份或是美國來源收入，請諮詢專業稅務人士！**
 
-![1040-NR表格第一頁](/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.14.27.png)
+![1040-NR表格第一頁](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page1.1qutg649uhxc.webp)*1040-NR表格第一頁*
 
-1040-NR表格第一頁
+![Schedule NEC](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-nec.4iud75o85km0.webp)*Schedule NEC*
 
-![Schedule NEC](/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.53.32.png)
+![1040-NR表格第二頁](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page2.3wsjskyqvbs0.webp)*1040-NR表格第二頁*
 
-Schedule NEC
-
-![1040-NR表格第二頁](/blog-images/1040-NR-tax-return/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D.png)
-
-1040-NR表格第二頁
-
-![Schedule OI](/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258811.02.19.png)
-
-Schedule OI
+![Schedule OI](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-oi.49nizqrig2m0.webp)*Schedule OI*
 
 注意事項：
 
