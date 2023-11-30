@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha256-/4UQcSmErDzPCMAiuOiWPVVsNN2s3ZY/NsmXNcj0IFc=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.januslin.info","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.15.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"giscus","storage":true,"lazyload":false,"nav":null,"activeClass":"giscus"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.januslin.info","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.15.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"giscus","storage":true,"lazyload":false,"nav":null,"activeClass":"giscus"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/config.min.js"></script>
 
     <meta name="description" content="分享非美國稅務身份NRA，投資美股ETF如何申請NEC退稅及ITIN號碼">
 <meta property="og:type" content="blog">
@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page2.3wsjskyqvbs0.webp">
 <meta property="og:image" content="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-oi.49nizqrig2m0.webp">
 <meta property="article:published_time" content="2023-11-29T04:32:11.000Z">
-<meta property="article:modified_time" content="2023-11-30T14:56:45.283Z">
+<meta property="article:modified_time" content="2023-11-30T16:32:56.997Z">
 <meta property="article:author" content="Janus Lin">
 <meta property="article:tag" content="美股投資">
 <meta property="article:tag" content="報稅">
@@ -276,7 +276,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2023-11-30 22:56:45" itemprop="dateModified" datetime="2023-11-30T22:56:45+08:00">2023-11-30</time>
+      <time title="修改時間：2023-12-01 00:32:56" itemprop="dateModified" datetime="2023-12-01T00:32:56+08:00">2023-12-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -310,7 +310,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp" alt="Filing Tax Return Form"></p>
+        <p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp" alt="Filing Tax Return Form"></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
 <p>聲明：<br>本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。<br>以下內容純屬個人見解及個人做法，純屬記錄個人投資歷程。<br>歡迎留言交流指正，但相關稅務責任需自負。</p>
 </blockquote>
@@ -333,11 +333,11 @@
 <p>這類的配息再入帳後可以經由再分類的程序，在隔年收到券商提供的<strong>1042-S</strong>表格後，填寫<strong>1040-NR</strong>向IRS申報<em>Non-Effectively Connected Income</em> (<strong>NEC</strong>)其中屬於無須扣稅的部分，進而退回多扣除的配息。</p>
 <h2 id="配息再分類"><a href="#配息再分類" class="headerlink" title="配息再分類"></a>配息再分類</h2><h3 id="抽取稅務資料"><a href="#抽取稅務資料" class="headerlink" title="抽取稅務資料"></a>抽取稅務資料</h3><p>在進行配息再分類前，必須先取得各基金公司(e.g. <em>Vanguard</em>, <em>iShares</em>)提供的稅務資料，才能釐清各個ETF的配息中哪些部分屬於可退稅的項目。</p>
 <p>感謝Rib前輩已經有整理台灣投資人常選擇的基金公司的稅務資料，可以在 <strong><a target="_blank" rel="noopener" href="https://ribtw.blogspot.com/2015/04/tax-info-spreadsheet.html">NEC退稅稅務資料抽取試算表</a></strong> 中取得整理過的資料，以下用 <em>Vanguard</em> 的<a target="_blank" rel="noopener" href="https://docs.google.com/spreadsheets/d/1VBE5HgNNarBjUC_n_8vQ04MMCXCodwZ_SkUjesSsoXA/edit?usp=drive_link">2022稅務資料抽取試算表</a>作為範例。</p>
-<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/BND-dividend.9e1klupvom8.webp" alt="以2022 Vanguard BND/VXUS稅務資料抽取為例"><em>以2022 Vanguard BND&#x2F;VXUS稅務資料抽取為例</em></p>
+<p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/BND-dividend.9e1klupvom8.webp" alt="以2022 Vanguard BND/VXUS稅務資料抽取為例"><em>以2022 Vanguard BND&#x2F;VXUS稅務資料抽取為例</em></p>
 <p>從範例圖中可以看到，BND的每月配息中幾乎有90%為<strong>QII</strong>、VXUS的配息全數屬於<strong>FSI</strong>。這些配息原本從券商入帳時都會被扣除30%，透過配息再分類的步驟，我們可以將最後計算出來多扣除的部分申請退回。</p>
 <h3 id="填寫再分類報表"><a href="#填寫再分類報表" class="headerlink" title="填寫再分類報表"></a>填寫再分類報表</h3><p>擁有抽取出的稅務資料以後，就能夠以此計算實際收到的配息中屬於免稅的金額。</p>
 <p>以Rib前輩製作的<a target="_blank" rel="noopener" href="https://ribtw.blogspot.com/2017/04/schwab-nec-2016.html">Schwab NEC退稅試算表</a>為例，依照文章及試算表指示將稅務資料、券商交易紀錄、券商提供的<strong><strong><strong><strong>1042-S</strong></strong></strong></strong>等資料一一填入對應試算表欄位後，就能產製一份配息再分類報表如下圖。</p>
-<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/reclassification.1xpkh76rtkdc.webp" alt="配息再分類報表範例"><em>配息再分類報表範例</em></p>
+<p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/reclassification.1xpkh76rtkdc.webp" alt="配息再分類報表範例"><em>配息再分類報表範例</em></p>
 <p>其中會得到四個重要的數字，依序分別為</p>
 <ul>
 <li><em>Total Taxable Income</em>: 應稅收入</li>
@@ -367,10 +367,10 @@
 </ol>
 <p>填寫1040-NR主表時，需注意第一頁上方的年份，若是需要申報更之前年份的退稅，可以在<a target="_blank" rel="noopener" href="https://www.irs.gov/prior-year-forms-and-instructions">IRS歷年表格</a>的頁面搜尋對應關鍵字並開啟文件填寫。</p>
 <p><strong>以下填寫範例為本人經驗，如有其他美國稅務身份或是美國來源收入，請諮詢專業稅務人士！</strong></p>
-<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page1.1qutg649uhxc.webp" alt="1040-NR表格第一頁"><em>1040-NR表格第一頁</em></p>
-<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-nec.4iud75o85km0.webp" alt="Schedule NEC"><em>Schedule NEC</em></p>
-<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page2.3wsjskyqvbs0.webp" alt="1040-NR表格第二頁"><em>1040-NR表格第二頁</em></p>
-<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-oi.49nizqrig2m0.webp" alt="Schedule OI"><em>Schedule OI</em></p>
+<p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page1.1qutg649uhxc.webp" alt="1040-NR表格第一頁"><em>1040-NR表格第一頁</em></p>
+<p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-nec.4iud75o85km0.webp" alt="Schedule NEC"><em>Schedule NEC</em></p>
+<p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page2.3wsjskyqvbs0.webp" alt="1040-NR表格第二頁"><em>1040-NR表格第二頁</em></p>
+<p><img data-src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-oi.49nizqrig2m0.webp" alt="Schedule OI"><em>Schedule OI</em></p>
 <p>注意事項：</p>
 <ul>
 <li><em>Schedule NEC</em>上方<em>Nature of Income</em>對應為預扣稅比例，台灣投資人NRA身份為30%，若有其他國家稅務身份則需填入對應比例的欄位。</li>
@@ -503,7 +503,10 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/comments.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/motion.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/schemes/muse.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/next-boot.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.8/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/comments.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/motion.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/schemes/muse.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/next-boot.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/pjax.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.15.0/third-party/search/local-search.min.js"></script>
