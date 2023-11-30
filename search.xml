@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>美股投資 1040-NR NEC退稅方式</title>
+    <title>美股ETF投資人申報NEC退稅流程分享</title>
     <url>/2023/11/29/1040-NR-tax-return/</url>
-    <content><![CDATA[<h2 id="美股投資-1040-NR-NEC退稅方式"><a href="#美股投資-1040-NR-NEC退稅方式" class="headerlink" title="美股投資 1040-NR NEC退稅方式"></a>美股投資 1040-NR NEC退稅方式</h2><blockquote>
+    <content><![CDATA[<h2 id="美股ETF投資人申報NEC退稅流程分享"><a href="#美股ETF投資人申報NEC退稅流程分享" class="headerlink" title="美股ETF投資人申報NEC退稅流程分享"></a>美股ETF投資人申報NEC退稅流程分享</h2><blockquote>
 <p>聲明：<br>本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。<br>以下內容純屬個人見解及個人做法，純屬記錄個人投資歷程。<br>歡迎留言交流指正，但相關稅務責任需自負。</p>
 </blockquote>
-<p>簡單介紹如何填寫1040-NR稅表及W-7申請ITIN<br>並且附上本人申請退稅流程及時間作為參考</p>
+<p>簡單介紹美股ETF投資人如何填寫表格申請退稅及申請ITIN<br>並且附上本人申請退稅流程作為參考</p>
 <span id="more"></span>
 
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp" alt="Filing Tax Return Form"></p>
 <h2 id="為什麼要退稅"><a href="#為什麼要退稅" class="headerlink" title="為什麼要退稅"></a>為什麼要退稅</h2><blockquote>
 <p>以下內容為參考 <strong><a href="https://ribtw.blogspot.com/">Rib的投資學習筆記</a></strong> 的 <strong><a href="https://ribtw.blogspot.com/2014/04/NEC-Tax-Refund.html">NEC退稅文章</a></strong> 後個人整理的概要<br>若想更詳細了解建議閱讀Rib前輩整理的退稅文章系列</p>
 </blockquote>
@@ -24,13 +25,11 @@
 <p>這類的配息再入帳後可以經由再分類的程序，在隔年收到券商提供的<strong>1042-S</strong>表格後，填寫<strong>1040-NR</strong>向IRS申報<em>Non-Effectively Connected Income</em> (<strong>NEC</strong>)其中屬於無須扣稅的部分，進而退回多扣除的配息。</p>
 <h2 id="配息再分類"><a href="#配息再分類" class="headerlink" title="配息再分類"></a>配息再分類</h2><h3 id="抽取稅務資料"><a href="#抽取稅務資料" class="headerlink" title="抽取稅務資料"></a>抽取稅務資料</h3><p>在進行配息再分類前，必須先取得各基金公司(e.g. <em>Vanguard</em>, <em>iShares</em>)提供的稅務資料，才能釐清各個ETF的配息中哪些部分屬於可退稅的項目。</p>
 <p>感謝Rib前輩已經有整理台灣投資人常選擇的基金公司的稅務資料，可以在 <strong><a href="https://ribtw.blogspot.com/2015/04/tax-info-spreadsheet.html">NEC退稅稅務資料抽取試算表</a></strong> 中取得整理過的資料，以下用 <em>Vanguard</em> 的<a href="https://docs.google.com/spreadsheets/d/1VBE5HgNNarBjUC_n_8vQ04MMCXCodwZ_SkUjesSsoXA/edit?usp=drive_link">2022稅務資料抽取試算表</a>作為範例。</p>
-<p><img src="/blog-images/1040-NR-tax-return/Untitled.png" alt="以2022 Vanguard BND/VXUS稅務資料抽取為例"></p>
-<p>以2022 Vanguard BND&#x2F;VXUS稅務資料抽取為例</p>
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/BND-dividend.9e1klupvom8.webp" alt="以2022 Vanguard BND/VXUS稅務資料抽取為例"><em>以2022 Vanguard BND&#x2F;VXUS稅務資料抽取為例</em></p>
 <p>從範例圖中可以看到，BND的每月配息中幾乎有90%為<strong>QII</strong>、VXUS的配息全數屬於<strong>FSI</strong>。這些配息原本從券商入帳時都會被扣除30%，透過配息再分類的步驟，我們可以將最後計算出來多扣除的部分申請退回。</p>
 <h3 id="填寫再分類報表"><a href="#填寫再分類報表" class="headerlink" title="填寫再分類報表"></a>填寫再分類報表</h3><p>擁有抽取出的稅務資料以後，就能夠以此計算實際收到的配息中屬於免稅的金額。</p>
 <p>以Rib前輩製作的<a href="https://ribtw.blogspot.com/2017/04/schwab-nec-2016.html">Schwab NEC退稅試算表</a>為例，依照文章及試算表指示將稅務資料、券商交易紀錄、券商提供的<strong><strong><strong><strong>1042-S</strong></strong></strong></strong>等資料一一填入對應試算表欄位後，就能產製一份配息再分類報表如下圖。</p>
-<p><img src="/blog-images/1040-NR-tax-return/Untitled%201.png" alt="配息再分類報表範例"></p>
-<p>配息再分類報表範例</p>
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/reclassification.1xpkh76rtkdc.webp" alt="配息再分類報表範例"><em>配息再分類報表範例</em></p>
 <p>其中會得到四個重要的數字，依序分別為</p>
 <ul>
 <li><em>Total Taxable Income</em>: 應稅收入</li>
@@ -60,14 +59,10 @@
 </ol>
 <p>填寫1040-NR主表時，需注意第一頁上方的年份，若是需要申報更之前年份的退稅，可以在<a href="https://www.irs.gov/prior-year-forms-and-instructions">IRS歷年表格</a>的頁面搜尋對應關鍵字並開啟文件填寫。</p>
 <p><strong>以下填寫範例為本人經驗，如有其他美國稅務身份或是美國來源收入，請諮詢專業稅務人士！</strong></p>
-<p><img src="/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.14.27.png" alt="1040-NR表格第一頁"></p>
-<p>1040-NR表格第一頁</p>
-<p><img src="/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258810.53.32.png" alt="Schedule NEC"></p>
-<p>Schedule NEC</p>
-<p><img src="/blog-images/1040-NR-tax-return/%25E6%259C%25AA%25E5%2591%25BD%25E5%2590%258D.png" alt="1040-NR表格第二頁"></p>
-<p>1040-NR表格第二頁</p>
-<p><img src="/blog-images/1040-NR-tax-return/%25E6%2588%25AA%25E5%259C%2596_2023-09-09_%25E4%25B8%258A%25E5%258D%258811.02.19.png" alt="Schedule OI"></p>
-<p>Schedule OI</p>
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page1.1qutg649uhxc.webp" alt="1040-NR表格第一頁"><em>1040-NR表格第一頁</em></p>
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-nec.4iud75o85km0.webp" alt="Schedule NEC"><em>Schedule NEC</em></p>
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page2.3wsjskyqvbs0.webp" alt="1040-NR表格第二頁"><em>1040-NR表格第二頁</em></p>
+<p><img src="https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-oi.49nizqrig2m0.webp" alt="Schedule OI"><em>Schedule OI</em></p>
 <p>注意事項：</p>
 <ul>
 <li><em>Schedule NEC</em>上方<em>Nature of Income</em>對應為預扣稅比例，台灣投資人NRA身份為30%，若有其他國家稅務身份則需填入對應比例的欄位。</li>
@@ -109,6 +104,9 @@
       <tags>
         <tag>美股投資</tag>
         <tag>報稅</tag>
+        <tag>美股ETF</tag>
+        <tag>美股退稅</tag>
+        <tag>美股ETF退稅</tag>
       </tags>
   </entry>
   <entry>
