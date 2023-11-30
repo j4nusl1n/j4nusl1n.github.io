@@ -2,6 +2,7 @@
 title: 404 Not Found
 date: 2023-03-22 01:22:36
 permalink: /404.html
+comments: false
 ---
 
 ## Oops! :O
