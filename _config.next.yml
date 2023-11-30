@@ -86,6 +86,12 @@ images: images
 # See: https://developers.google.com/search
 google_site_verification: tJfngue2homYInPbMEX8esxdAl2ibFeV5_KxILnJjbk
 
+# Post wordcount display settings
+# Dependencies: https://github.com/next-theme/hexo-word-counter
+symbols_count_time:
+  separated_meta: true
+  item_text_total: false
+
 favicon:
   small: /images/favicon-16x16.png
   medium: /images/favicon-32x32.png

@@ -1,5 +1,5 @@
 ---
-title: 美股ETF投資人申報NEC退稅流程分享
+title: 美股ETF投資人申報NEC退稅分享
 tags:
   - 美股投資
   - 報稅
@@ -10,10 +10,13 @@ categories:
   - - 美股投資
     - 報稅
 date: 2023-11-29 12:32:11
+description: 
+  分享非美國稅務身份NRA，投資美股ETF如何申請NEC退稅及ITIN號碼
 ---
 
+![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)
 
-## 美股ETF投資人申報NEC退稅流程分享
+## 前言
 
 > 聲明：
 本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。
@@ -26,7 +29,6 @@ date: 2023-11-29 12:32:11
 
 <!--more-->
 
-![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)
 
 ## 為什麼要退稅
 
