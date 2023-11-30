@@ -105,3 +105,9 @@ deploy:
   type: "git"
   repo: https://github.com/j4nusl1n/j4nusl1n.github.io.git
   branch: gh-pages
+
+# hexo-word-counter
+symbols_count_time:
+  symbols: false
+  total_symbols: false
+  total_time: false
