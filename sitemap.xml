@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.januslin.info/googlea7582505f8fb04fb</loc>
+    
+    <lastmod>2023-11-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.januslin.info/categories/</loc>
+    
+    <lastmod>2023-11-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.januslin.info/tags/</loc>
     
     <lastmod>2023-11-30</lastmod>
@@ -11,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.januslin.info/2023/11/29/1040-NR-tax-return/</loc>
+    <loc>https://blog.januslin.info/2023/11/29/1040-NRA-tax-return/</loc>
     
     <lastmod>2023-11-30</lastmod>
     
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://blog.januslin.info/2023/03/21/selenium-intro/</loc>
-    
-    <lastmod>2023-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.januslin.info/googlea7582505f8fb04fb</loc>
     
     <lastmod>2023-11-30</lastmod>
     
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://blog.januslin.info/about/privacy-policy</loc>
-    
-    <lastmod>2023-11-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.januslin.info/categories/</loc>
     
     <lastmod>2023-11-30</lastmod>
     
