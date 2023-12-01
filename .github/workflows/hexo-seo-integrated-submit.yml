@@ -1,4 +1,4 @@
-name: hexo seo integrated submit
+name: hexo-seo-auto-push
 on:
   workflow_dispatch:
   schedule:
@@ -21,6 +21,8 @@ jobs:
           service_account: "my-service-account@my-project.iam.gserviceaccount.com"
       - name: 1. Checkout the code
         uses: actions/checkout@v3
+        with:
+          ref: gh-pages
       - name: 2. Install Node Environment
         uses: actions/setup-node@v3
         with:
