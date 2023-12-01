@@ -10,27 +10,29 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
     steps:
-
+      - id: "auth"
+        if: false
+        name: "Authenticate to Google Cloud"
+        uses: "google-github-actions/auth@v0.4.0"
+        with:
+          token_format: "access_token"
+          create_credentials_file
+          workload_identity_provider: "projects/876480428679/locations/global/workloadIdentityPools/github-wif-pool/providers/my-provider"
+          service_account: "my-service-account@my-project.iam.gserviceaccount.com"
       - name: 1. Checkout the code
         uses: actions/checkout@v3
-
       - name: 2. Install Node Environment
         uses: actions/setup-node@v3
         with:
           node-version: 16
-
       - name: 3. Install the Plugin of 
         run: |
-          npm install hexo-seo-integrated-submit -g
-
-      - name: 4. Google submit
-        if: true
-        run: hexo-sis google -e "${{secrets.google_client_email}}" -k "${{secrets.google_private_key}}"
-
-      - name: 5. Bing submit
-        if: true
-        run: hexo-sis bing -k "${{secrets.bing_apikey}}"
-
-      - name: 6. Baidu submit
-        if: true
-        run: hexo-sis baidu -k "${{secrets.baidu_token}}"
+          npm init -y
+          npm install hexo-seo-autopush
+      - name: 4. google 提交
+        run: npx hexoautopush ${{secrets.google_client_email}} ${{secrets.google_private_key}}    
+      - name: 5. bing 提交
+        run: curl -X POST "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlBatch?apikey=${{secrets.bing_apikey}}" -H "Content-Type:application/json" -H "charset:utf-8" -d @bing.json
+      - name: 6. baidu 提交
+        run: curl -H "Content-Type:text/plain" --data-binary @baidu.txt "http://data.zz.baidu.com/urls?site=https://blog.januslin.info&token=${{secrets.baidu_token}}"
+  
