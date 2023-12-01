@@ -1,6 +1,10 @@
 name: hexo-seo-auto-push
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types:
+      - completed
   schedule:
     - cron: 0 4 * * *
   watch:
@@ -10,15 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
     steps:
-      - id: "auth"
-        if: false
-        name: "Authenticate to Google Cloud"
-        uses: "google-github-actions/auth@v0.4.0"
-        with:
-          token_format: "access_token"
-          create_credentials_file: true
-          workload_identity_provider: "projects/876480428679/locations/global/workloadIdentityPools/github-wif-pool/providers/my-provider"
-          service_account: "my-service-account@my-project.iam.gserviceaccount.com"
+      # - id: "auth"
+      #   if: false
+      #   name: "Authenticate to Google Cloud"
+      #   uses: "google-github-actions/auth@v0.4.0"
+      #   with:
+      #     token_format: "access_token"
+      #     create_credentials_file: true
+      #     workload_identity_provider: "projects/876480428679/locations/global/workloadIdentityPools/github-wif-pool/providers/my-provider"
+      #     service_account: "my-service-account@my-project.iam.gserviceaccount.com"
       - name: 1. Checkout the code
         uses: actions/checkout@v3
         with:
