@@ -119,3 +119,11 @@ symbols_count_time:
 abbrlink:
   alg: crc32
   rep: hex
+
+hexo_seo_autopush:
+  # generate_workflow_file: true
+  date: updated
+  count: 10
+  cron: 0 4 * * *
+  google:
+    enable: true
