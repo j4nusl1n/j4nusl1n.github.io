@@ -9,9 +9,10 @@ tags:
 categories:
   - - 美股投資
     - 報稅
+description: 分享非美國稅務身份NRA，投資美股ETF如何申請NEC退稅及ITIN號碼
+abbrlink: c072df63
 date: 2023-11-29 12:32:11
-description: 
-  分享非美國稅務身份NRA，投資美股ETF如何申請NEC退稅及ITIN號碼
+permalink: 2023/11/29/1040-NR-tax-return/
 ---
 
 ![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)

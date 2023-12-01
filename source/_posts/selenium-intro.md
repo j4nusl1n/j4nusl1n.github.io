@@ -1,9 +1,17 @@
 ---
 title: Selenium 網頁爬蟲簡單分享 in Python
-date: 2023-03-21 23:20:41
-tags: [python,selenium,crawler,web crawler,網頁爬蟲]
+tags:
+  - python
+  - selenium
+  - crawler
+  - web crawler
+  - 網頁爬蟲
 categories:
-    - [技術分享, 爬蟲]
+  - - 技術分享
+    - 爬蟲
+abbrlink: 28e4cdf1
+date: 2023-03-21 23:20:41
+permalink: 2023/03/21/selenium-intro/
 ---
 
 ## 什麼是 Selenium？
