@@ -16,7 +16,7 @@ jobs:
         uses: "google-github-actions/auth@v0.4.0"
         with:
           token_format: "access_token"
-          create_credentials_file
+          create_credentials_file: true
           workload_identity_provider: "projects/876480428679/locations/global/workloadIdentityPools/github-wif-pool/providers/my-provider"
           service_account: "my-service-account@my-project.iam.gserviceaccount.com"
       - name: 1. Checkout the code
