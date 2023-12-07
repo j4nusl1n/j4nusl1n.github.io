@@ -30,7 +30,6 @@ permalink: 2023/11/29/1040-NR-tax-return/
 
 <!--more-->
 
-
 ## 為什麼要退稅
 
 > 以下內容為參考 **[Rib的投資學習筆記](https://ribtw.blogspot.com/)** 的 **[NEC退稅文章](https://ribtw.blogspot.com/2014/04/NEC-Tax-Refund.html)** 後個人整理的概要

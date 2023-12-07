@@ -96,7 +96,7 @@ menu:
   home: / || fa fa-home
   about:
     default: /about/ || fa fa-user
-    privacy: /about/privacy-policy || fas fa-user-shield
+    privacy: /privacy-policy || fas fa-user-shield
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
