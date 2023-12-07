@@ -8,4 +8,6 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 Disallow: /blog-images/
+Disallow: /images/
+Disallow: /404
 Sitemap: https://blog.januslin.info/sitemap.xml
