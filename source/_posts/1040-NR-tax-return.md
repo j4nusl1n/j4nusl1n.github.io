@@ -15,15 +15,19 @@ date: 2023-11-29 12:32:11
 permalink: 2023/11/29/1040-NR-tax-return/
 ---
 
-![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)
+![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)*Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-android-smartphone-near-ballpoint-pen-tax-withholding-certificate-on-top-of-white-folder-M98NRBuzbpc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
 
 ## 前言
 
-> 聲明：
+{% note warning %}
+
+### 聲明
+
 本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。
 以下內容純屬個人見解及個人做法，純屬記錄個人投資歷程。
 歡迎留言交流指正，但相關稅務責任需自負。
->
+
+{% endnote %}
 
 簡單介紹美股ETF投資人如何填寫表格申請退稅及申請ITIN  
 並且附上本人申請退稅流程作為參考
@@ -104,15 +108,29 @@ permalink: 2023/11/29/1040-NR-tax-return/
 
 填寫1040-NR主表時，需注意第一頁上方的年份，若是需要申報更之前年份的退稅，可以在[IRS歷年表格](https://www.irs.gov/prior-year-forms-and-instructions)的頁面搜尋對應關鍵字並開啟文件填寫。
 
+{% note warning %}
 **以下填寫範例為本人經驗，如有其他美國稅務身份或是美國來源收入，請諮詢專業稅務人士！**
+{% endnote %}
 
+{% tabs 1040-NR 表格 %}
+
+<!-- tab 1040-NR表格第一頁 -->
 ![1040-NR表格第一頁](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page1.1qutg649uhxc.webp)*1040-NR表格第一頁*
+<!-- endtab -->
 
+<!-- tab Schedule NEC -->
 ![Schedule NEC](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-nec.4iud75o85km0.webp)*Schedule NEC*
+<!-- endtab -->
 
+<!-- tab 1040-NR表格第二頁 -->
 ![1040-NR表格第二頁](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/1040-NR-page2.3wsjskyqvbs0.webp)*1040-NR表格第二頁*
+<!-- endtab -->
 
+<!-- tab Schedule OI -->
 ![Schedule OI](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/schedule-oi.49nizqrig2m0.webp)*Schedule OI*
+<!-- endtab -->
+
+{% endtabs %}
 
 注意事項：
 
@@ -133,12 +151,13 @@ permalink: 2023/11/29/1040-NR-tax-return/
 
 寄送到下列地址
 
->Internal Revenue Service  
+{% note info %}
+Internal Revenue Service  
 Austin Service Center  
 ITIN Operation  
 P.O. Box 149342  
 Austin, TX 78714-9342
->
+{% endnote %}
 
 若是單純報稅的話，所需文件為
 
@@ -148,10 +167,11 @@ Austin, TX 78714-9342
 
 寄送到下列地址
 
->Department of the Treasury  
+{% note info %}
+Department of the Treasury  
 Internal Revenue Service  
 Austin, Texas 73301-0215
->
+{% endnote %}
 
 ## 退稅時程
 
