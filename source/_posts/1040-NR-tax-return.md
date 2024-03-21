@@ -7,21 +7,18 @@ tags:
   - 美股退稅
   - 美股ETF退稅
 categories:
-  - - 美股投資
-    - 報稅
+  - [投資,美股投資]
 description: 分享非美國稅務身份NRA，投資美股ETF如何申請NEC退稅及ITIN號碼
 abbrlink: c072df63
 date: 2023-11-29 12:32:11
 permalink: 2023/11/29/1040-NR-tax-return/
 ---
 
-![Filing Tax Return Form](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)*Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-android-smartphone-near-ballpoint-pen-tax-withholding-certificate-on-top-of-white-folder-M98NRBuzbpc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
+![black Android smartphone near ballpoint pen, tax withholding certificate on top of white folder](https://cdn.statically.io/gh/j4nusl1n/blog-images@master/1040-NR-tax-return/kelly-sikkema-M98NRBuzbpc-unsplash.hb3ho92g448.webp)*Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-android-smartphone-near-ballpoint-pen-tax-withholding-certificate-on-top-of-white-folder-M98NRBuzbpc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)*
 
 ## 前言
 
-{% note warning %}
-
-### 聲明
+{% note warning 聲明 %}
 
 本人沒有任何法律會計或是美國稅法相關背景，英文程度也不算好。
 以下內容純屬個人見解及個人做法，純屬記錄個人投資歷程。
