@@ -122,6 +122,37 @@ permalink: 2023/11/29/1040-NR-tax-return/
   - A~H：攸關投資人的稅籍身份認定，請依個人狀況填寫
   - L：若擁有**與美國有稅務協定的國家的稅籍身份**請照實填寫，必要情況時須額外附上[Form 8833](https://www.irs.gov/forms-pubs/about-form-8833)
 
+## 文件寄出
+
+上述文件填寫完成以後需要寄送到IRS，申請ITIN需要把所需文件
+
+- W-7 及 身分證明文件
+- 1040-NR, Schedule NEC, OI
+- 1042-S (Copy C)
+- 其他報稅文件
+
+寄送到下列地址
+
+>Internal Revenue Service  
+Austin Service Center  
+ITIN Operation  
+P.O. Box 149342  
+Austin, TX 78714-9342
+>
+
+若是單純報稅的話，所需文件為
+
+- 1040-NR, Schedule NEC, OI
+- 1042-S (Copy C)
+- 其他報稅文件
+
+寄送到下列地址
+
+>Department of the Treasury  
+Internal Revenue Service  
+Austin, Texas 73301-0215
+>
+
 ## 退稅時程
 
 - 2023-08-30 申請護照正影本相符證明
