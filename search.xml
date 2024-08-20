@@ -191,82 +191,6 @@ Austin, Texas 73301-0215</p>
       </tags>
   </entry>
   <entry>
-    <title>Selenium 網頁爬蟲簡單分享 in Python</title>
-    <url>//2023/03/21/selenium-intro/</url>
-    <content><![CDATA[<h2 id="什麼是-Selenium？">什麼是 Selenium？</h2>
-<p><strong>Selenium</strong> 網頁爬蟲是一種透過程式模仿人類操作瀏覽器的方式，例如點擊連結、填入文字框等等，以便取得網頁中的資料</p>
-<span id="more"></span>
-<h2 id="如何安裝使用-Selenium">如何安裝使用 Selenium</h2>
-<p>以下程式範例使用 Python 3.8，環境設定的部分暫不贅述</p>
-<h3 id="安裝-Selenium">安裝 Selenium</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure>
-<h3 id="安裝瀏覽器驅動-Web-driver">安裝瀏覽器驅動(Web driver)</h3>
-<p>要讓 Selenium 操作瀏覽器時，需要安裝對應的瀏覽器驅動，下列為幾種常用的瀏覽器驅動，可以依照個人喜好挑選</p>
-<ul>
-<li>Chrome: <span class="exturl" data-url="aHR0cHM6Ly9zaXRlcy5nb29nbGUuY29tL2EvY2hyb21pdW0ub3JnL2Nocm9tZWRyaXZlci9kb3dubG9hZHM=">https://sites.google.com/a/chromium.org/chromedriver/downloads<i class="fa fa-external-link-alt"></i></span></li>
-<li>Firefox: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21vemlsbGEvZ2Vja29kcml2ZXIvcmVsZWFzZXM=">https://github.com/mozilla/geckodriver/releases<i class="fa fa-external-link-alt"></i></span></li>
-<li>Edge: <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtZWRnZS90b29scy93ZWJkcml2ZXIv">https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/<i class="fa fa-external-link-alt"></i></span></li>
-<li>Safari: <span class="exturl" data-url="aHR0cHM6Ly93ZWJraXQub3JnL2Jsb2cvNjkwMC93ZWJkcml2ZXItc3VwcG9ydC1pbi1zYWZhcmktMTAv">https://webkit.org/blog/6900/webdriver-support-in-safari-10/<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<p>後續範例皆使用 Chrome 瀏覽器</p>
-<h2 id="Selenium-示範">Selenium 示範</h2>
-<p>下面為一段簡單的範例程式碼</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"></span><br><span class="line"><span class="comment"># specify the path to the browser driver executable</span></span><br><span class="line">browser = webdriver.Chrome(<span class="string">&#x27;/path/to/chromedriver&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># navigate to a webpage</span></span><br><span class="line">browser.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># find an element by its CSS selector and click on it</span></span><br><span class="line">button = browser.find_element_by_css_selector(<span class="string">&#x27;#my-button&#x27;</span>)</span><br><span class="line">button.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># fill out a form and submit it</span></span><br><span class="line">input_field = browser.find_element_by_css_selector(<span class="string">&#x27;#my-input&#x27;</span>)</span><br><span class="line">input_field.send_keys(<span class="string">&#x27;Hello, World!&#x27;</span>)</span><br><span class="line">submit_button = browser.find_element_by_css_selector(<span class="string">&#x27;#submit-button&#x27;</span>)</span><br><span class="line">submit_button.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># extract information from the page</span></span><br><span class="line">heading = browser.find_element_by_css_selector(<span class="string">&#x27;h1&#x27;</span>).text</span><br><span class="line">paragraphs = browser.find_elements_by_css_selector(<span class="string">&#x27;p&#x27;</span>)</span><br><span class="line"><span class="keyword">for</span> p <span class="keyword">in</span> paragraphs:</span><br><span class="line">    <span class="built_in">print</span>(p.text)</span><br><span class="line"></span><br><span class="line"><span class="comment"># close the browser window</span></span><br><span class="line">browser.quit()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>在這個範例中，我們使用了 Selenium 驅動了 Chrome 瀏覽器，執行時會自動開啟一個瀏覽器畫面。<br>
-接著我們開啟 <span class="exturl" data-url="aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=">https://www.example.com<i class="fa fa-external-link-alt"></i></span>，並且使用 CSS 選擇器選定一個按鈕點擊它。<br>
-再來繼續使用 CSS 選擇器找到文字框，輸入 <code>Hello, World!</code>，找到送出按鈕送出表單。<br>
-接下來再取得網頁中標題<code>h1</code>以及文字段落<code>p</code>，並且印出所有文字段落內的文字。<br>
-最後在結束前，別忘了使用<code>quit()</code>關閉瀏覽器。<br>
-以上範例只是個參考，讓大家能夠大略上理解，如何透過 Selenium 操控瀏覽器將瀏覽網頁行為自動化。</p>
-<p>接著會再介紹如何應用 Selenium 的其他功能，以便應付更複雜的情境。</p>
-<h2 id="如何等待特定條件滿足後接續執行">如何等待特定條件滿足後接續執行</h2>
-<p>如果我們需要等待網頁DOM元件產生之後再爬取資料的話，與其直接用<code>time.sleep()</code>的方式，更應該善用Selenium自帶的<code>WebDriverWait</code>類別及<code>expected_conditions</code>模組，來幫助我們寫出更有效率的爬蟲</p>
-<p><code>WebDriverWait</code>是一個能夠等待特定條件達成後，才接著繼續執行後續程式的類別。  <code>expected_conditions</code>模組中有各種條件功能，能夠結合上面的類別，以便完成整個等待的過程。</p>
-<p>下面是個簡單的範例程式碼，讓爬蟲等待網頁中特定DOM元件完成顯示之後，再點擊此元件：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.by <span class="keyword">import</span> By</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.support.ui <span class="keyword">import</span> WebDriverWait</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.support <span class="keyword">import</span> expected_conditions <span class="keyword">as</span> EC</span><br><span class="line"></span><br><span class="line"><span class="comment"># create a new Chrome browser instance</span></span><br><span class="line">browser = webdriver.Chrome()</span><br><span class="line"></span><br><span class="line"><span class="comment"># navigate to the desired webpage</span></span><br><span class="line">browser.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># wait for the element with ID &quot;my_element&quot; to become visible</span></span><br><span class="line">wait = WebDriverWait(browser, <span class="number">10</span>)</span><br><span class="line">element = wait.until(EC.visibility_of_element_located((By.ID, <span class="string">&#x27;my_element&#x27;</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment"># do something with the element</span></span><br><span class="line">element.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># close the browser window</span></span><br><span class="line">browser.quit()</span><br></pre></td></tr></table></figure>
-<p>首先爬蟲開啟一個Chrome並且連到 <span class="exturl" data-url="aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=">https://www.example.com<i class="fa fa-external-link-alt"></i></span><br>
-接著建立一個<code>WebDriverWait</code>物件，並且設定最大等待時間10秒</p>
-<p>再來使用 <code>expected_conditions</code> 模組中的 <code>visibility_of_element_located</code>去偵測指定DOM元件是否已經顯示在網頁中。這個函式需要一個參數去指定要偵測的DOM元件，這邊使用的是DOM的ID <code>my_element</code></p>
-<p><code>WebDriverWait</code>的<code>until</code>會等到條件滿足，或者是超過最大等待時間。若是條件滿足的話，則會回傳<code>visibility_of_element_located</code>中指定的元件，好讓我們能對此元件做互動</p>
-<h2 id="擷取網頁回傳資料">擷取網頁回傳資料</h2>
-<p>有時候我們如果在爬取網頁時，需要擷取特定Http Request回傳的資料時，這時候我們就可以利用 Selenium 的 <code>get_log</code> 方法來達成目的<br>
-下面為簡單的程式範例</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.desired_capabilities <span class="keyword">import</span> DesiredCapabilities</span><br><span class="line"></span><br><span class="line"><span class="comment"># configure Google Chrome logging preference to all logs</span></span><br><span class="line"><span class="comment"># always use copy() to create a new desired capabilities</span></span><br><span class="line"><span class="comment"># to avoid the side effects of altering the Global class instance.</span></span><br><span class="line">dc = DesiredCapabilities.CHROME.copy()</span><br><span class="line">dc[<span class="string">&quot;goog:loggingPrefs&quot;</span>] = &#123;<span class="string">&quot;performance&quot;</span>: <span class="string">&quot;ALL&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Launch the browser and navigate to the page you want to capture network response logs from</span></span><br><span class="line">driver = webdriver.Chrome(</span><br><span class="line">    desired_capabilities=dc,</span><br><span class="line">)</span><br><span class="line">driver.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Retrieve the browser&#x27;s logs</span></span><br><span class="line">logs = driver.get_log(<span class="string">&#x27;performance&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Filter out the network response logs from the browser logs</span></span><br><span class="line">network_logs = [log <span class="keyword">for</span> log <span class="keyword">in</span> logs <span class="keyword">if</span> <span class="string">&#x27;Network.response&#x27;</span> <span class="keyword">in</span> log[<span class="string">&#x27;message&#x27;</span>]]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>在上述程式碼中，我們依序做了下面幾件事:</p>
-<ol>
-<li>設定Chrome記錄所有log並開啟瀏覽器</li>
-<li>開啟我們想要抓取資料的網址</li>
-<li>使用 <code>get_log()</code> 並且傳入參數 <code>'performance'</code>，讀取所有類型為performance的瀏覽器記錄</li>
-<li>記錄的<code>message</code>中帶有 <code>Network.response</code> 的留下，剩餘的濾掉</li>
-</ol>
-<p>透過以上過程，我們可以取得網頁的Http response記錄</p>
-<p>下一段我們使用 <code>execute_cdp_command</code> 方法來取得資料</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># continue from codes above</span></span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> log <span class="keyword">in</span> network_logs:</span><br><span class="line">    <span class="comment"># parse JSON strings in log[&#x27;message&#x27;]</span></span><br><span class="line">    msg = json.loads(log[<span class="string">&#x27;message&#x27;</span>])[<span class="string">&#x27;message&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># check if method is Network.responseReceived</span></span><br><span class="line">    <span class="keyword">if</span> msg[<span class="string">&quot;method&quot;</span>] == <span class="string">&quot;Network.responseReceived&quot;</span>:</span><br><span class="line">        <span class="comment"># use Selenium execute_cdp_cmd to retrieve respnose data</span></span><br><span class="line">        data = driver.execute_cdp_cmd(</span><br><span class="line">            <span class="string">&quot;Network.getResponseBody&quot;</span>,</span><br><span class="line">            &#123;<span class="string">&quot;requestId&quot;</span>: msg[<span class="string">&quot;params&quot;</span>][<span class="string">&quot;requestId&quot;</span>]&#125;,</span><br><span class="line">        )</span><br><span class="line">        <span class="built_in">print</span>(data)</span><br></pre></td></tr></table></figure>
-<p>接續前面取得的 <code>network_logs</code>，我們接著後續步驟取得回傳資料</p>
-<ol>
-<li>記錄的 <code>message</code> 欄位，其中資料為JSON string，因此使用 <code>json.loads()</code> 解析成 <code>dict</code> 格式並且留下 <code>message</code> 存到變數 <code>msg</code></li>
-<li>檢查 <code>msg['method']</code> 是否為 <code>Network.responseReceived</code></li>
-<li>使用 <code>execute_cdp_cmd()</code> 透過 Chrome DevTools Protocol 的 <span class="exturl" data-url="aHR0cHM6Ly9jaHJvbWVkZXZ0b29scy5naXRodWIuaW8vZGV2dG9vbHMtcHJvdG9jb2wvdG90L05ldHdvcmsvI21ldGhvZC1nZXRSZXNwb25zZUJvZHk=">Network.getResponseBody<i class="fa fa-external-link-alt"></i></span> 指令，取得回傳資料</li>
-</ol>
-<p>以上範例簡單演練了如何取得網頁Http Response的資料，好讓我們能使用回傳資料做後續處理</p>
-<h2 id="Optional-使用套件管理瀏覽器驅動">(Optional) 使用套件管理瀏覽器驅動</h2>
-<p>由於前述的瀏覽器驅動需要依照使用者安裝的瀏覽器，去選擇下載對應版本的驅動，因此可以額外使用 python 套件 <code>Web Driver Manager</code> 去自動下載新的瀏覽器驅動。適合在本機開發時若是瀏覽器時常更新版本的話，就不需要手動去下載新的驅動</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip3 install webdriver-manager</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br><span class="line"><span class="keyword">from</span> webdriver_manager.chrome <span class="keyword">import</span> ChromeDriverManager</span><br><span class="line"><span class="keyword">from</span> webdriver_manager.core.utils <span class="keyword">import</span> ChromeType</span><br><span class="line"></span><br><span class="line">chrome_type = ChromeType.GOOGLE</span><br><span class="line">browser = webdriver.Chrome(</span><br><span class="line">    service=Service(</span><br><span class="line">        ChromeDriverManager(chrome_type=chrome_type).install()</span><br><span class="line">    ),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技術分享</category>
-        <category>爬蟲</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>selenium</tag>
-        <tag>crawler</tag>
-        <tag>web crawler</tag>
-        <tag>網頁爬蟲</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>美國運通希爾頓卡/Surpass®卡：申請過程與使用心得</title>
     <url>/post/6f979dc2/</url>
     <content><![CDATA[<p><img data-src="https://cdn.jsdelivr.net/gh/j4nusl1n/blog-images@master/amex_hilton_cards/Hilton-Honors-American-Express-Surpass-Card-2.17cyt0nvd5ts.webp" alt="Hilton Honors American Express Surpass® Card 2"><em>© 2024 Hilton</em></p>
@@ -381,7 +305,7 @@ Austin, Texas 73301-0215</p>
 也還在考慮是否要進一步申請最高階的 Hilton Honors Aspire Card，以獲得鑽石會員身份和更多權益。</p>
 <h3 id="結語">結語</h3>
 <p>其實最初轉卡是打算申請Aspire卡拿希爾頓鑽石會員，但是1月時申請轉卡被要求提供銀行員簽名信件作為地址證明，覺得很麻煩就放著沒繼續申請。不確定是不是當時台灣這邊持卡才剛滿90天還不夠久，所以轉卡沒成功。<br>
-沒想到5月時一樣能用轉卡申請，而且給的信用額度蠻高的，或許是有參考台灣的額度也說不定:thinking_face:</p>
+沒想到5月時一樣能用轉卡申請，而且給的信用額度蠻高的，或許是有參考台灣的額度也說不定🤔</p>
 <p>AMEX這邊應該暫時先停止開新卡了，接下來要把目標放在Chase的幾張卡像是Chase Sapphire Preferred或是Chase Marriott Boundless</p>
 <hr>
 <p>ref.</p>
@@ -401,6 +325,82 @@ Austin, Texas 73301-0215</p>
         <tag>AMEX</tag>
         <tag>Hilton Honors</tag>
         <tag>酒店常旅客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Selenium 網頁爬蟲簡單分享 in Python</title>
+    <url>//2023/03/21/selenium-intro/</url>
+    <content><![CDATA[<h2 id="什麼是-Selenium？">什麼是 Selenium？</h2>
+<p><strong>Selenium</strong> 網頁爬蟲是一種透過程式模仿人類操作瀏覽器的方式，例如點擊連結、填入文字框等等，以便取得網頁中的資料</p>
+<span id="more"></span>
+<h2 id="如何安裝使用-Selenium">如何安裝使用 Selenium</h2>
+<p>以下程式範例使用 Python 3.8，環境設定的部分暫不贅述</p>
+<h3 id="安裝-Selenium">安裝 Selenium</h3>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure>
+<h3 id="安裝瀏覽器驅動-Web-driver">安裝瀏覽器驅動(Web driver)</h3>
+<p>要讓 Selenium 操作瀏覽器時，需要安裝對應的瀏覽器驅動，下列為幾種常用的瀏覽器驅動，可以依照個人喜好挑選</p>
+<ul>
+<li>Chrome: <span class="exturl" data-url="aHR0cHM6Ly9zaXRlcy5nb29nbGUuY29tL2EvY2hyb21pdW0ub3JnL2Nocm9tZWRyaXZlci9kb3dubG9hZHM=">https://sites.google.com/a/chromium.org/chromedriver/downloads<i class="fa fa-external-link-alt"></i></span></li>
+<li>Firefox: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21vemlsbGEvZ2Vja29kcml2ZXIvcmVsZWFzZXM=">https://github.com/mozilla/geckodriver/releases<i class="fa fa-external-link-alt"></i></span></li>
+<li>Edge: <span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtZWRnZS90b29scy93ZWJkcml2ZXIv">https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/<i class="fa fa-external-link-alt"></i></span></li>
+<li>Safari: <span class="exturl" data-url="aHR0cHM6Ly93ZWJraXQub3JnL2Jsb2cvNjkwMC93ZWJkcml2ZXItc3VwcG9ydC1pbi1zYWZhcmktMTAv">https://webkit.org/blog/6900/webdriver-support-in-safari-10/<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<p>後續範例皆使用 Chrome 瀏覽器</p>
+<h2 id="Selenium-示範">Selenium 示範</h2>
+<p>下面為一段簡單的範例程式碼</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"></span><br><span class="line"><span class="comment"># specify the path to the browser driver executable</span></span><br><span class="line">browser = webdriver.Chrome(<span class="string">&#x27;/path/to/chromedriver&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># navigate to a webpage</span></span><br><span class="line">browser.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># find an element by its CSS selector and click on it</span></span><br><span class="line">button = browser.find_element_by_css_selector(<span class="string">&#x27;#my-button&#x27;</span>)</span><br><span class="line">button.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># fill out a form and submit it</span></span><br><span class="line">input_field = browser.find_element_by_css_selector(<span class="string">&#x27;#my-input&#x27;</span>)</span><br><span class="line">input_field.send_keys(<span class="string">&#x27;Hello, World!&#x27;</span>)</span><br><span class="line">submit_button = browser.find_element_by_css_selector(<span class="string">&#x27;#submit-button&#x27;</span>)</span><br><span class="line">submit_button.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># extract information from the page</span></span><br><span class="line">heading = browser.find_element_by_css_selector(<span class="string">&#x27;h1&#x27;</span>).text</span><br><span class="line">paragraphs = browser.find_elements_by_css_selector(<span class="string">&#x27;p&#x27;</span>)</span><br><span class="line"><span class="keyword">for</span> p <span class="keyword">in</span> paragraphs:</span><br><span class="line">    <span class="built_in">print</span>(p.text)</span><br><span class="line"></span><br><span class="line"><span class="comment"># close the browser window</span></span><br><span class="line">browser.quit()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>在這個範例中，我們使用了 Selenium 驅動了 Chrome 瀏覽器，執行時會自動開啟一個瀏覽器畫面。<br>
+接著我們開啟 <span class="exturl" data-url="aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=">https://www.example.com<i class="fa fa-external-link-alt"></i></span>，並且使用 CSS 選擇器選定一個按鈕點擊它。<br>
+再來繼續使用 CSS 選擇器找到文字框，輸入 <code>Hello, World!</code>，找到送出按鈕送出表單。<br>
+接下來再取得網頁中標題<code>h1</code>以及文字段落<code>p</code>，並且印出所有文字段落內的文字。<br>
+最後在結束前，別忘了使用<code>quit()</code>關閉瀏覽器。<br>
+以上範例只是個參考，讓大家能夠大略上理解，如何透過 Selenium 操控瀏覽器將瀏覽網頁行為自動化。</p>
+<p>接著會再介紹如何應用 Selenium 的其他功能，以便應付更複雜的情境。</p>
+<h2 id="如何等待特定條件滿足後接續執行">如何等待特定條件滿足後接續執行</h2>
+<p>如果我們需要等待網頁DOM元件產生之後再爬取資料的話，與其直接用<code>time.sleep()</code>的方式，更應該善用Selenium自帶的<code>WebDriverWait</code>類別及<code>expected_conditions</code>模組，來幫助我們寫出更有效率的爬蟲</p>
+<p><code>WebDriverWait</code>是一個能夠等待特定條件達成後，才接著繼續執行後續程式的類別。  <code>expected_conditions</code>模組中有各種條件功能，能夠結合上面的類別，以便完成整個等待的過程。</p>
+<p>下面是個簡單的範例程式碼，讓爬蟲等待網頁中特定DOM元件完成顯示之後，再點擊此元件：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.by <span class="keyword">import</span> By</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.support.ui <span class="keyword">import</span> WebDriverWait</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.support <span class="keyword">import</span> expected_conditions <span class="keyword">as</span> EC</span><br><span class="line"></span><br><span class="line"><span class="comment"># create a new Chrome browser instance</span></span><br><span class="line">browser = webdriver.Chrome()</span><br><span class="line"></span><br><span class="line"><span class="comment"># navigate to the desired webpage</span></span><br><span class="line">browser.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># wait for the element with ID &quot;my_element&quot; to become visible</span></span><br><span class="line">wait = WebDriverWait(browser, <span class="number">10</span>)</span><br><span class="line">element = wait.until(EC.visibility_of_element_located((By.ID, <span class="string">&#x27;my_element&#x27;</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment"># do something with the element</span></span><br><span class="line">element.click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># close the browser window</span></span><br><span class="line">browser.quit()</span><br></pre></td></tr></table></figure>
+<p>首先爬蟲開啟一個Chrome並且連到 <span class="exturl" data-url="aHR0cHM6Ly93d3cuZXhhbXBsZS5jb20=">https://www.example.com<i class="fa fa-external-link-alt"></i></span><br>
+接著建立一個<code>WebDriverWait</code>物件，並且設定最大等待時間10秒</p>
+<p>再來使用 <code>expected_conditions</code> 模組中的 <code>visibility_of_element_located</code>去偵測指定DOM元件是否已經顯示在網頁中。這個函式需要一個參數去指定要偵測的DOM元件，這邊使用的是DOM的ID <code>my_element</code></p>
+<p><code>WebDriverWait</code>的<code>until</code>會等到條件滿足，或者是超過最大等待時間。若是條件滿足的話，則會回傳<code>visibility_of_element_located</code>中指定的元件，好讓我們能對此元件做互動</p>
+<h2 id="擷取網頁回傳資料">擷取網頁回傳資料</h2>
+<p>有時候我們如果在爬取網頁時，需要擷取特定Http Request回傳的資料時，這時候我們就可以利用 Selenium 的 <code>get_log</code> 方法來達成目的<br>
+下面為簡單的程式範例</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.desired_capabilities <span class="keyword">import</span> DesiredCapabilities</span><br><span class="line"></span><br><span class="line"><span class="comment"># configure Google Chrome logging preference to all logs</span></span><br><span class="line"><span class="comment"># always use copy() to create a new desired capabilities</span></span><br><span class="line"><span class="comment"># to avoid the side effects of altering the Global class instance.</span></span><br><span class="line">dc = DesiredCapabilities.CHROME.copy()</span><br><span class="line">dc[<span class="string">&quot;goog:loggingPrefs&quot;</span>] = &#123;<span class="string">&quot;performance&quot;</span>: <span class="string">&quot;ALL&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Launch the browser and navigate to the page you want to capture network response logs from</span></span><br><span class="line">driver = webdriver.Chrome(</span><br><span class="line">    desired_capabilities=dc,</span><br><span class="line">)</span><br><span class="line">driver.get(<span class="string">&#x27;https://www.example.com&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Retrieve the browser&#x27;s logs</span></span><br><span class="line">logs = driver.get_log(<span class="string">&#x27;performance&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Filter out the network response logs from the browser logs</span></span><br><span class="line">network_logs = [log <span class="keyword">for</span> log <span class="keyword">in</span> logs <span class="keyword">if</span> <span class="string">&#x27;Network.response&#x27;</span> <span class="keyword">in</span> log[<span class="string">&#x27;message&#x27;</span>]]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>在上述程式碼中，我們依序做了下面幾件事:</p>
+<ol>
+<li>設定Chrome記錄所有log並開啟瀏覽器</li>
+<li>開啟我們想要抓取資料的網址</li>
+<li>使用 <code>get_log()</code> 並且傳入參數 <code>'performance'</code>，讀取所有類型為performance的瀏覽器記錄</li>
+<li>記錄的<code>message</code>中帶有 <code>Network.response</code> 的留下，剩餘的濾掉</li>
+</ol>
+<p>透過以上過程，我們可以取得網頁的Http response記錄</p>
+<p>下一段我們使用 <code>execute_cdp_command</code> 方法來取得資料</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># continue from codes above</span></span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> log <span class="keyword">in</span> network_logs:</span><br><span class="line">    <span class="comment"># parse JSON strings in log[&#x27;message&#x27;]</span></span><br><span class="line">    msg = json.loads(log[<span class="string">&#x27;message&#x27;</span>])[<span class="string">&#x27;message&#x27;</span>]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># check if method is Network.responseReceived</span></span><br><span class="line">    <span class="keyword">if</span> msg[<span class="string">&quot;method&quot;</span>] == <span class="string">&quot;Network.responseReceived&quot;</span>:</span><br><span class="line">        <span class="comment"># use Selenium execute_cdp_cmd to retrieve respnose data</span></span><br><span class="line">        data = driver.execute_cdp_cmd(</span><br><span class="line">            <span class="string">&quot;Network.getResponseBody&quot;</span>,</span><br><span class="line">            &#123;<span class="string">&quot;requestId&quot;</span>: msg[<span class="string">&quot;params&quot;</span>][<span class="string">&quot;requestId&quot;</span>]&#125;,</span><br><span class="line">        )</span><br><span class="line">        <span class="built_in">print</span>(data)</span><br></pre></td></tr></table></figure>
+<p>接續前面取得的 <code>network_logs</code>，我們接著後續步驟取得回傳資料</p>
+<ol>
+<li>記錄的 <code>message</code> 欄位，其中資料為JSON string，因此使用 <code>json.loads()</code> 解析成 <code>dict</code> 格式並且留下 <code>message</code> 存到變數 <code>msg</code></li>
+<li>檢查 <code>msg['method']</code> 是否為 <code>Network.responseReceived</code></li>
+<li>使用 <code>execute_cdp_cmd()</code> 透過 Chrome DevTools Protocol 的 <span class="exturl" data-url="aHR0cHM6Ly9jaHJvbWVkZXZ0b29scy5naXRodWIuaW8vZGV2dG9vbHMtcHJvdG9jb2wvdG90L05ldHdvcmsvI21ldGhvZC1nZXRSZXNwb25zZUJvZHk=">Network.getResponseBody<i class="fa fa-external-link-alt"></i></span> 指令，取得回傳資料</li>
+</ol>
+<p>以上範例簡單演練了如何取得網頁Http Response的資料，好讓我們能使用回傳資料做後續處理</p>
+<h2 id="Optional-使用套件管理瀏覽器驅動">(Optional) 使用套件管理瀏覽器驅動</h2>
+<p>由於前述的瀏覽器驅動需要依照使用者安裝的瀏覽器，去選擇下載對應版本的驅動，因此可以額外使用 python 套件 <code>Web Driver Manager</code> 去自動下載新的瀏覽器驅動。適合在本機開發時若是瀏覽器時常更新版本的話，就不需要手動去下載新的驅動</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip3 install webdriver-manager</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br><span class="line"><span class="keyword">from</span> webdriver_manager.chrome <span class="keyword">import</span> ChromeDriverManager</span><br><span class="line"><span class="keyword">from</span> webdriver_manager.core.utils <span class="keyword">import</span> ChromeType</span><br><span class="line"></span><br><span class="line">chrome_type = ChromeType.GOOGLE</span><br><span class="line">browser = webdriver.Chrome(</span><br><span class="line">    service=Service(</span><br><span class="line">        ChromeDriverManager(chrome_type=chrome_type).install()</span><br><span class="line">    ),</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技術分享</category>
+        <category>爬蟲</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>selenium</tag>
+        <tag>crawler</tag>
+        <tag>web crawler</tag>
+        <tag>網頁爬蟲</tag>
       </tags>
   </entry>
 </search>
