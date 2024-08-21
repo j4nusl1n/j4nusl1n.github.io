@@ -12,6 +12,7 @@ categories:
 abbrlink: 28e4cdf1
 date: 2023-03-21 23:20:41
 permalink: 2023/03/21/selenium-intro/
+description: 簡單介紹如何在Python 3.8環境安裝Selenium，並且實現網頁爬蟲功能例如抓取網頁資料、擷取HTTP Request回傳資料等功能
 ---
 
 ## 什麼是 Selenium？
