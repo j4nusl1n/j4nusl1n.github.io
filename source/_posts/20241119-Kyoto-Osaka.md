@@ -38,7 +38,7 @@ description:
 | 清晨 | 6點抵達大阪(KIX)<br>GK50<br>02:00 - 06:00 | 早餐前去清水寺<br>回去吃早餐 | 早餐 | 早餐 | 早餐 | 早餐 |
 | 早上 | 逛臨空城 |  | 嵐山<br>[寶嚴院](https://maps.app.goo.gl/Sj3iKD5zCygMF6wF8)<br>竹林小徑<br>[展望台](https://maps.app.goo.gl/DbkJvF8CeTFmcYLB6) |  | [USJ](https://maps.app.goo.gl/85a4KKW6WQU4chZy6)<br>好萊塢區<br>哈利波特區 |  |
 | 中午 | 臨空城吃午餐 | [麵屋 豬一](https://maps.app.goo.gl/JE8rtnPbt1UHQ5Dd8) | [Ogura茶屋 烏龍麵](https://maps.app.goo.gl/93ep5zaMiyQ2PHN86) | [三嶋亭 高島屋店 7F](https://maps.app.goo.gl/9SX3MKEXSsFDzLWTA) | USJ |  |
-| 下午 | 前往京都放行李<br>前往伏見稻荷神社 | [南禪寺](https://maps.app.goo.gl/pSNTdyyovwPmAZ6w6) | 常寂光寺<br>嵐山街道逛逛 | 回大阪放行李<br>逛街 | USJ 任天堂區 | 逛街 |
+| 下午 | 前往京都放行李<br>前往伏見稻荷神社 | 哲學之道<br>[南禪寺](https://maps.app.goo.gl/pSNTdyyovwPmAZ6w6) | 常寂光寺<br>嵐山街道逛逛 | 回大阪放行李<br>逛街 | USJ 任天堂區 | 逛街 |
 | 晚上 | 東福寺 夜楓 17:30~19:30 | [永觀堂](https://maps.app.goo.gl/dhYvKmvjtvsN7BMv8)夜楓點燈 17:30~20:30 (排隊入場) | 清水寺夜楓點燈 ~21:30 | 逛道頓堀/心齋橋 | USJ 回去哈利波特區 | 前往機場<br>GK51<br>23:20 - 01:30(+1) |
 | 晚餐 | [京的燒肉處 弘 八條口店](https://maps.app.goo.gl/WQ58rg2q5R8ezMgF8) |  |  | [肉丼專門店 道頓堀肉劇場](https://maps.app.goo.gl/Wg4iHSBvGwsp1aW49) | USJ | 大阪市區或臨空城 |
 | 飯店 | [THE POCKET HOTEL 京都烏丸五条](https://maps.app.goo.gl/gV23h69L9RVFdh8k8) | - | - | [Comfort Hotel Shinsaibashi](https://maps.app.goo.gl/toL3uoBQfQLuX6ox6) | - | - |
