@@ -39,7 +39,7 @@ description:
 | 中午 | 臨空城吃午餐(暫定) | [日の出うどん](https://maps.app.goo.gl/yJp6A3TgoAERmmS59) or [麵屋 豬一](https://maps.app.goo.gl/JE8rtnPbt1UHQ5Dd8) | [Ogura茶屋 烏龍麵](https://maps.app.goo.gl/93ep5zaMiyQ2PHN86) | [三嶋亭 高島屋店 7F](https://maps.app.goo.gl/9SX3MKEXSsFDzLWTA) | USJ | [焼肉 きたん 法善寺](https://maps.app.goo.gl/2rvHXbuVtBxuSZ3L9) |
 | 下午 | 前往京都放行李<br>前往伏見稻荷神社 | 蹴上傾斜鐵道<br>[南禪寺](https://maps.app.goo.gl/pSNTdyyovwPmAZ6w6)<br>哲學之道 | 常寂光寺<br>嵐山街道逛逛or咖啡廳休息 | 回大阪放行李<br>逛街 | USJ 任天堂區 | 逛街(暫定) |
 | 晚上 | 東福寺 夜楓(需預約) 17:30~19:30 <br>or<br>清水寺夜楓點燈 ~21:30 | [永觀堂](https://maps.app.goo.gl/dhYvKmvjtvsN7BMv8)夜楓點燈 17:30~20:30 (排隊入場) | 宝厳院夜楓[預約](https://ec.travel.jr-central.co.jp/tp/optionalFacilities/6240J15/plans/6240J15-C005418-M006606/detail) 17:30~20:30 | 逛道頓堀/心齋橋 | USJ 回去哈利波特區 | 前往機場<br>GK51<br>23:20 - 01:30(+1) |
-| 晚餐 | [京的燒肉處 弘 八條口店](https://maps.app.goo.gl/WQ58rg2q5R8ezMgF8) | [麵屋 豬一](https://maps.app.goo.gl/JE8rtnPbt1UHQ5Dd8)(暫定) |  | [肉丼專門店 道頓堀肉劇場](https://maps.app.goo.gl/Wg4iHSBvGwsp1aW49) | USJ | 大阪市區或臨空城(暫定) |
+| 晚餐 | [京的燒肉處 弘 八條口店](https://maps.app.goo.gl/WQ58rg2q5R8ezMgF8) | [麵屋 豬一](https://maps.app.goo.gl/JE8rtnPbt1UHQ5Dd8)(暫定) |  | [肉丼專門店 道頓堀肉劇場](https://maps.app.goo.gl/Wg4iHSBvGwsp1aW49) | USJ | [とんかつ 大喜](https://maps.app.goo.gl/qf9tGaybpYm7RYWN9) |
 | 飯店 | [THE POCKET HOTEL 京都烏丸五条](https://maps.app.goo.gl/gV23h69L9RVFdh8k8) | - | - | [Comfort Hotel Shinsaibashi](https://maps.app.goo.gl/toL3uoBQfQLuX6ox6) | - | - |
 | 交通 | KIX-京都: Haruka<br>京都: 京阪電車 京都觀光一日券 |  | 嵐電+地鐵一日券 |  |  | 大阪難波-KIX: 南海電鐵 |
 
