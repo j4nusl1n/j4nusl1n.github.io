@@ -2,18 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.januslin.info/2023/11/29/1040-NR-tax-return/</loc>
-    
-    <lastmod>2024-11-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.januslin.info/post/250e252/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +13,7 @@
   <url>
     <loc>https://blog.januslin.info/post/e81227d7/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +22,7 @@
   <url>
     <loc>https://blog.januslin.info/post/6f979dc2/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +31,7 @@
   <url>
     <loc>https://blog.januslin.info/2023/03/21/selenium-intro/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,16 +40,7 @@
   <url>
     <loc>https://blog.januslin.info/googlea7582505f8fb04fb</loc>
     
-    <lastmod>2024-11-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.januslin.info/404</loc>
-    
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +49,7 @@
   <url>
     <loc>https://blog.januslin.info/about/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +58,7 @@
   <url>
     <loc>https://blog.januslin.info/about/privacy-policy</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +67,7 @@
   <url>
     <loc>https://blog.januslin.info/about/resume</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +76,7 @@
   <url>
     <loc>https://blog.januslin.info/categories/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +85,25 @@
   <url>
     <loc>https://blog.januslin.info/tags/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.januslin.info/2023/11/29/1040-NR-tax-return/</loc>
+    
+    <lastmod>2024-11-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.januslin.info/404</loc>
+    
+    <lastmod>2024-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://blog.januslin.info/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,161 +120,161 @@
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B3%87/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E5%A0%B1%E7%A8%85/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%BE%8E%E8%82%A1ETF/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%BE%8E%E8%82%A1%E9%80%80%E7%A8%85/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%BE%8E%E8%82%A1ETF%E9%80%80%E7%A8%85/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E5%8F%B0%E8%82%A1ETF/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E6%97%A5%E6%9C%AC%E6%97%85%E9%81%8A/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E4%BA%AC%E9%83%BD/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E5%A4%A7%E9%98%AA/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%A7%8B%E5%AD%A3/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E6%A5%93%E8%91%89/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%B4%85%E8%91%89/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E9%97%9C%E8%A5%BF/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%BE%8E%E5%9C%8B%E4%BF%A1%E7%94%A8%E5%8D%A1/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/AMEX/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/Hilton-Honors/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E9%85%92%E5%BA%97%E5%B8%B8%E6%97%85%E5%AE%A2/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/python/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/selenium/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/crawler/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/web-crawler/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/tags/%E7%B6%B2%E9%A0%81%E7%88%AC%E8%9F%B2/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -283,63 +283,63 @@
   
   <url>
     <loc>https://blog.januslin.info/categories/%E6%8A%95%E8%B3%87/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E6%97%A5%E6%9C%AC%E6%97%85%E9%81%8A/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E4%BF%A1%E7%94%A8%E5%8D%A1/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E6%8A%95%E8%B3%87/%E7%BE%8E%E8%82%A1%E6%8A%95%E8%B3%87/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E6%8A%80%E8%A1%93%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E4%BF%A1%E7%94%A8%E5%8D%A1/%E7%BE%8E%E5%9C%8B%E4%BF%A1%E7%94%A8%E5%8D%A1/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E6%8A%80%E8%A1%93%E5%88%86%E4%BA%AB/%E7%88%AC%E8%9F%B2/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E6%8A%95%E8%B3%87/%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%A7/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.januslin.info/categories/%E4%BF%A1%E7%94%A8%E5%8D%A1/%E7%BE%8E%E5%9C%8B%E4%BF%A1%E7%94%A8%E5%8D%A1/AMEX/</loc>
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
